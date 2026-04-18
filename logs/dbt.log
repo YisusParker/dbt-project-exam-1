@@ -1,0 +1,2239 @@
+[0m21:27:01.688751 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FFA1CDE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FFB593ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FFB593B10>]}
+
+
+============================== 21:27:01.696765 | 0be2d920-fe02-4f64-8907-0f21bbac90a7 ==============================
+[0m21:27:01.696765 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:27:01.697544 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:27:01.700670 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'default'
+[0m21:27:01.701586 [debug] [MainThread]: Command `dbt run` failed at 21:27:01.701454 after 0.18 seconds
+[0m21:27:01.701922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FFB4CAD70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FFC582690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FFB3E7570>]}
+[0m21:27:01.702259 [debug] [MainThread]: Flushing usage events
+[0m21:27:02.864713 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:37:07.351601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299FCA8DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299FDE4FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299FDE4FB10>]}
+
+
+============================== 21:37:07.356035 | 20bfe4e6-dfa5-418d-9ed8-adc0c5ae6243 ==============================
+[0m21:37:07.356035 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:37:07.356572 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:37:07.359079 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'default'
+[0m21:37:07.359971 [debug] [MainThread]: Command `dbt run` failed at 21:37:07.359857 after 0.17 seconds
+[0m21:37:07.360302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299FDD86D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299FEE3A690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299FDCA7570>]}
+[0m21:37:07.360717 [debug] [MainThread]: Flushing usage events
+[0m21:37:07.867490 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:39:58.874670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E94049DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E94184FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E94184FB10>]}
+
+
+============================== 21:39:58.878929 | 9159d74d-f870-4108-9e85-a4ec4aab97a6 ==============================
+[0m21:39:58.878929 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:39:58.879570 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:39:58.882520 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named '"C:\Users\CARLOS ESTEBAN\.dbt\keys\data-transformation-486715-4a60ff1e4477.json"'
+[0m21:39:58.883501 [debug] [MainThread]: Command `dbt run` failed at 21:39:58.883320 after 0.16 seconds
+[0m21:39:58.883881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E941786D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E942836690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9416A7570>]}
+[0m21:39:58.884243 [debug] [MainThread]: Flushing usage events
+[0m21:39:59.365498 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:40:17.419659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFE791DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFE8CC7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFE8CC7B10>]}
+
+
+============================== 21:40:17.423997 | 1655b7dd-1743-4e75-af7e-e24da706e82d ==============================
+[0m21:40:17.423997 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:40:17.424600 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:40:17.427372 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'data-transformation-486715-4a60ff1e4477'
+[0m21:40:17.428282 [debug] [MainThread]: Command `dbt run` failed at 21:40:17.428167 after 0.13 seconds
+[0m21:40:17.428597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFE8C06D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFE9CC2690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFE8B27570>]}
+[0m21:40:17.428931 [debug] [MainThread]: Flushing usage events
+[0m21:40:17.733766 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:40:40.139486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CD7EFBDE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CD003EBED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CD003EBB10>]}
+
+
+============================== 21:40:40.143796 | 7f326830-20c4-4a8f-83a9-ba54b4a70ba3 ==============================
+[0m21:40:40.143796 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:40:40.144351 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:40:40.146922 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'data-transformation-486715'
+[0m21:40:40.147774 [debug] [MainThread]: Command `dbt run` failed at 21:40:40.147660 after 0.13 seconds
+[0m21:40:40.148116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CD00326D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CD013E2690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CD00247570>]}
+[0m21:40:40.148516 [debug] [MainThread]: Flushing usage events
+[0m21:40:40.456419 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:42:50.123646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020909E7DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002090B23FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002090B23FB10>]}
+
+
+============================== 21:42:50.127958 | 85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0 ==============================
+[0m21:42:50.127958 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:42:50.128582 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:43:02.574994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002090A54DE00>]}
+[0m21:43:02.636837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091DA8EBE0>]}
+[0m21:43:02.637434 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:43:03.167771 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m21:43:03.168657 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m21:43:03.169216 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091DAC1650>]}
+[0m21:43:05.904812 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091E0A3B60>]}
+[0m21:43:05.998294 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:43:06.001152 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:43:06.053858 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091DE191D0>]}
+[0m21:43:06.054315 [info ] [MainThread]: Found 10 models, 1 seed, 8 data tests, 4 sources, 541 macros
+[0m21:43:06.054813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091E047860>]}
+[0m21:43:06.058108 [info ] [MainThread]: 
+[0m21:43:06.058611 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m21:43:06.059018 [info ] [MainThread]: 
+[0m21:43:06.059604 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m21:43:06.064877 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715'
+[0m21:43:06.065331 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:43:07.174847 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715_exam2'
+[0m21:43:07.176649 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:43:08.182742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091E452750>]}
+[0m21:43:08.184621 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:43:08.248608 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_customers
+[0m21:43:08.249484 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_employees
+[0m21:43:08.249109 [info ] [Thread-1 (]: 1 of 10 START sql table model exam2.stg_customers .............................. [RUN]
+[0m21:43:08.251100 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.my_new_project.stg_customers'
+[0m21:43:08.251585 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_customers
+[0m21:43:08.250041 [info ] [Thread-2 (]: 2 of 10 START sql table model exam2.stg_employees .............................. [RUN]
+[0m21:43:08.258457 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_customers"
+[0m21:43:08.259040 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.my_new_project.stg_employees'
+[0m21:43:08.259520 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_employees
+[0m21:43:08.261991 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_employees"
+[0m21:43:08.266825 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_employees
+[0m21:43:08.274877 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_customers
+[0m21:43:08.317605 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_employees"
+[0m21:43:08.319487 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_customers"
+[0m21:43:08.323584 [debug] [Thread-2 (]: On model.my_new_project.stg_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_employees"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_employees`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    employee_id as id_empleado,
+    last_name as apellido,
+    first_name as nombre,
+    birthdate as fecha_nacimiento,
+    photo as foto,
+    notes as notas
+FROM  `data-transformation-486715`.`raw`.`employees`
+    );
+  
+[0m21:43:08.324070 [debug] [Thread-1 (]: On model.my_new_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_customers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_customers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_cliente,
+    "name" as nombre,
+    contact as contacto,
+    "address" as direccion,
+    city as ciudad,
+    postal_code as codigo_postal,
+    country as pais
+
+FROM  `data-transformation-486715`.`raw`.`customers`
+    );
+  
+[0m21:43:08.324495 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m21:43:08.324892 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:43:09.577406 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:29aee845-5454-4ad0-bdea-9b04154aa5aa&page=queryresults
+[0m21:43:09.579695 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:29aee845-5454-4ad0-bdea-9b04154aa5aa&page=queryresults
+[0m21:43:09.589436 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:0a049073-5c13-42ae-a9eb-ffcbe58a365b&page=queryresults
+[0m21:43:09.591645 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:0a049073-5c13-42ae-a9eb-ffcbe58a365b&page=queryresults
+[0m21:43:09.758821 [debug] [Thread-1 (]: Database Error in model stg_customers (models\staging\stg_customers.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_customers.sql
+[0m21:43:09.763318 [debug] [Thread-2 (]: Database Error in model stg_employees (models\staging\stg_employees.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_employees.sql
+[0m21:43:09.764483 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091E44F070>]}
+[0m21:43:09.765395 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002090A4EE030>]}
+[0m21:43:09.765092 [error] [Thread-1 (]: 1 of 10 ERROR creating sql table model exam2.stg_customers ..................... [[31mERROR[0m in 1.51s]
+[0m21:43:09.766589 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_customers
+[0m21:43:09.766963 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_orders
+[0m21:43:09.768022 [debug] [Thread-5 (]: Marking all children of 'model.my_new_project.stg_customers' to be skipped because of status 'error'.  Reason: Database Error in model stg_customers (models\staging\stg_customers.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_customers.sql.
+[0m21:43:09.765940 [error] [Thread-2 (]: 2 of 10 ERROR creating sql table model exam2.stg_employees ..................... [[31mERROR[0m in 1.50s]
+[0m21:43:09.769556 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_employees
+[0m21:43:09.770262 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_shippers
+[0m21:43:09.771023 [debug] [Thread-5 (]: Marking all children of 'model.my_new_project.stg_employees' to be skipped because of status 'error'.  Reason: Database Error in model stg_employees (models\staging\stg_employees.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_employees.sql.
+[0m21:43:09.767502 [info ] [Thread-1 (]: 3 of 10 START sql table model exam2.stg_orders ................................. [RUN]
+[0m21:43:09.771725 [info ] [Thread-2 (]: 4 of 10 START sql table model exam2.stg_shippers ............................... [RUN]
+[0m21:43:09.772600 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_customers, now model.my_new_project.stg_orders)
+[0m21:43:09.773006 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_employees, now model.my_new_project.stg_shippers)
+[0m21:43:09.773401 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_orders
+[0m21:43:09.773778 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_shippers
+[0m21:43:09.776396 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_orders"
+[0m21:43:09.778675 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_shippers"
+[0m21:43:09.780212 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_shippers
+[0m21:43:09.780849 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_orders
+[0m21:43:09.784757 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_shippers"
+[0m21:43:09.786776 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_orders"
+[0m21:43:09.788401 [debug] [Thread-2 (]: On model.my_new_project.stg_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_shippers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_shippers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_transporte,
+    "name" as nombre_transporte,
+    phone as telefono_transporte
+FROM  `data-transformation-486715`.`raw`.`shippers`
+    );
+  
+[0m21:43:09.788901 [debug] [Thread-1 (]: On model.my_new_project.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_orders"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_orders`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_pedido,
+    customer_id as fk_cliente,
+    employee_id as fk_empleado,
+    date as fecha_pedido,
+    shipper_id as fk_transporte
+FROM  `data-transformation-486715`.`raw`.`orders`
+    );
+  
+[0m21:43:09.789343 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:43:09.789766 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:43:10.976822 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:6171d4fc-8345-47d9-83f0-068b7c1cd9d2&page=queryresults
+[0m21:43:10.978957 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:6171d4fc-8345-47d9-83f0-068b7c1cd9d2&page=queryresults
+[0m21:43:10.998878 [debug] [Thread-2 (]: Database Error in model stg_shippers (models\staging\stg_shippers.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_shippers.sql
+[0m21:43:10.999992 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091F8B6ED0>]}
+[0m21:43:11.001590 [error] [Thread-2 (]: 4 of 10 ERROR creating sql table model exam2.stg_shippers ...................... [[31mERROR[0m in 1.23s]
+[0m21:43:11.002983 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_shippers
+[0m21:43:11.003723 [debug] [Thread-2 (]: Began running node model.my_new_project.int_customers_in_eu
+[0m21:43:11.004602 [debug] [Thread-5 (]: Marking all children of 'model.my_new_project.stg_shippers' to be skipped because of status 'error'.  Reason: Database Error in model stg_shippers (models\staging\stg_shippers.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_shippers.sql.
+[0m21:43:11.005269 [info ] [Thread-2 (]: 5 of 10 SKIP relation exam2.int_customers_in_eu ................................ [[33mSKIP[0m]
+[0m21:43:11.006230 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_customers_in_eu
+[0m21:43:11.007143 [debug] [Thread-2 (]: Began running node model.my_new_project.eu_discount
+[0m21:43:11.007759 [info ] [Thread-2 (]: 6 of 10 SKIP relation exam2.eu_discount ........................................ [[33mSKIP[0m]
+[0m21:43:11.008598 [debug] [Thread-2 (]: Finished running node model.my_new_project.eu_discount
+[0m21:43:11.145665 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:668324a5-6bea-47ad-8e59-8a6c32d943bd&page=queryresults
+[0m21:43:11.147542 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:668324a5-6bea-47ad-8e59-8a6c32d943bd&page=queryresults
+[0m21:43:11.165754 [debug] [Thread-1 (]: Database Error in model stg_orders (models\staging\stg_orders.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_orders.sql
+[0m21:43:11.166817 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '85ec8c32-4aed-4b6d-a84b-2d2cef91b0e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091F8C4BB0>]}
+[0m21:43:11.168039 [error] [Thread-1 (]: 3 of 10 ERROR creating sql table model exam2.stg_orders ........................ [[31mERROR[0m in 1.39s]
+[0m21:43:11.169489 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_orders
+[0m21:43:11.170714 [debug] [Thread-5 (]: Marking all children of 'model.my_new_project.stg_orders' to be skipped because of status 'error'.  Reason: Database Error in model stg_orders (models\staging\stg_orders.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_orders.sql.
+[0m21:43:11.172212 [debug] [Thread-1 (]: Began running node model.my_new_project.int_orders_shippers
+[0m21:43:11.173272 [debug] [Thread-2 (]: Began running node model.my_new_project.int_orders_employees
+[0m21:43:11.174080 [info ] [Thread-1 (]: 8 of 10 SKIP relation exam2.int_orders_shippers ................................ [[33mSKIP[0m]
+[0m21:43:11.175981 [debug] [Thread-1 (]: Finished running node model.my_new_project.int_orders_shippers
+[0m21:43:11.177161 [debug] [Thread-1 (]: Began running node model.my_new_project.shipper_ranking
+[0m21:43:11.174863 [info ] [Thread-2 (]: 7 of 10 SKIP relation exam2.int_orders_employees ............................... [[33mSKIP[0m]
+[0m21:43:11.177956 [info ] [Thread-1 (]: 9 of 10 SKIP relation exam2.shipper_ranking .................................... [[33mSKIP[0m]
+[0m21:43:11.178804 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_orders_employees
+[0m21:43:11.179421 [debug] [Thread-1 (]: Finished running node model.my_new_project.shipper_ranking
+[0m21:43:11.180483 [debug] [Thread-2 (]: Began running node model.my_new_project.recognized_employees
+[0m21:43:11.180984 [info ] [Thread-2 (]: 10 of 10 SKIP relation exam2.recognized_employees .............................. [[33mSKIP[0m]
+[0m21:43:11.181693 [debug] [Thread-2 (]: Finished running node model.my_new_project.recognized_employees
+[0m21:43:11.183523 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:43:11.216617 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:43:11.217032 [debug] [MainThread]: Connection 'list_data-transformation-486715' was properly closed.
+[0m21:43:11.217273 [debug] [MainThread]: Connection 'list_data-transformation-486715_exam2' was properly closed.
+[0m21:43:11.217507 [debug] [MainThread]: Connection 'model.my_new_project.stg_orders' was properly closed.
+[0m21:43:11.217739 [debug] [MainThread]: Connection 'model.my_new_project.stg_shippers' was properly closed.
+[0m21:43:11.218059 [info ] [MainThread]: 
+[0m21:43:11.218496 [info ] [MainThread]: Finished running 4 table models, 6 view models in 0 hours 0 minutes and 5.16 seconds (5.16s).
+[0m21:43:11.219880 [debug] [MainThread]: Command end result
+[0m21:43:11.247011 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:43:11.249365 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:43:11.256515 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\run_results.json
+[0m21:43:11.256906 [info ] [MainThread]: 
+[0m21:43:11.257421 [info ] [MainThread]: [31mCompleted with 4 errors, 0 partial successes, and 0 warnings:[0m
+[0m21:43:11.257872 [info ] [MainThread]: 
+[0m21:43:11.258366 [error] [MainThread]: [31mFailure in model stg_customers (models\staging\stg_customers.sql)[0m
+[0m21:43:11.258843 [error] [MainThread]:   Database Error in model stg_customers (models\staging\stg_customers.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_customers.sql
+[0m21:43:11.259392 [info ] [MainThread]: 
+[0m21:43:11.260064 [info ] [MainThread]:   compiled code at target\compiled\my_new_project\models\staging\stg_customers.sql
+[0m21:43:11.260493 [info ] [MainThread]: 
+[0m21:43:11.260964 [error] [MainThread]: [31mFailure in model stg_employees (models\staging\stg_employees.sql)[0m
+[0m21:43:11.261431 [error] [MainThread]:   Database Error in model stg_employees (models\staging\stg_employees.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_employees.sql
+[0m21:43:11.261842 [info ] [MainThread]: 
+[0m21:43:11.262290 [info ] [MainThread]:   compiled code at target\compiled\my_new_project\models\staging\stg_employees.sql
+[0m21:43:11.262680 [info ] [MainThread]: 
+[0m21:43:11.263137 [error] [MainThread]: [31mFailure in model stg_shippers (models\staging\stg_shippers.sql)[0m
+[0m21:43:11.263591 [error] [MainThread]:   Database Error in model stg_shippers (models\staging\stg_shippers.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_shippers.sql
+[0m21:43:11.263979 [info ] [MainThread]: 
+[0m21:43:11.264429 [info ] [MainThread]:   compiled code at target\compiled\my_new_project\models\staging\stg_shippers.sql
+[0m21:43:11.264816 [info ] [MainThread]: 
+[0m21:43:11.265338 [error] [MainThread]: [31mFailure in model stg_orders (models\staging\stg_orders.sql)[0m
+[0m21:43:11.265928 [error] [MainThread]:   Database Error in model stg_orders (models\staging\stg_orders.sql)
+  Not found: Dataset data-transformation-486715:raw was not found in location US
+  compiled code at target\run\my_new_project\models\staging\stg_orders.sql
+[0m21:43:11.266382 [info ] [MainThread]: 
+[0m21:43:11.266878 [info ] [MainThread]:   compiled code at target\compiled\my_new_project\models\staging\stg_orders.sql
+[0m21:43:11.267263 [info ] [MainThread]: 
+[0m21:43:11.268000 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=4 SKIP=6 NO-OP=0 TOTAL=10
+[0m21:43:11.269351 [debug] [MainThread]: Command `dbt run` failed at 21:43:11.269241 after 21.30 seconds
+[0m21:43:11.269681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091DDF8A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209089CE390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091DC9B170>]}
+[0m21:43:11.270135 [debug] [MainThread]: Flushing usage events
+[0m21:43:11.827480 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:45:08.916926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027318A0DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027319DC3ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027319DC3B10>]}
+
+
+============================== 21:45:08.921705 | f684be34-125e-453b-a747-25599cebec7c ==============================
+[0m21:45:08.921705 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:45:08.922280 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:45:11.556082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273190CDE00>]}
+[0m21:45:11.618376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732C586BE0>]}
+[0m21:45:11.619005 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:45:12.001416 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m21:45:12.165202 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m21:45:12.166367 [debug] [MainThread]: Partial parsing: updated file: my_new_project://models\staging\schema.yml
+[0m21:45:12.718791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732CAF6F50>]}
+[0m21:45:12.803609 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:45:12.805815 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:45:12.832180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027318A8AB70>]}
+[0m21:45:12.832691 [info ] [MainThread]: Found 1 seed, 10 models, 8 data tests, 4 sources, 541 macros
+[0m21:45:12.833215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732C8A7930>]}
+[0m21:45:12.835844 [info ] [MainThread]: 
+[0m21:45:12.836565 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m21:45:12.837287 [info ] [MainThread]: 
+[0m21:45:12.837824 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m21:45:12.842694 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715'
+[0m21:45:12.843062 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:45:13.918307 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715_exam2'
+[0m21:45:13.920222 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:45:14.895576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732CE102C0>]}
+[0m21:45:14.897615 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:45:14.934733 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_employees
+[0m21:45:14.935191 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_customers
+[0m21:45:14.935689 [info ] [Thread-2 (]: 2 of 10 START sql table model exam2.stg_employees .............................. [RUN]
+[0m21:45:14.936767 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.my_new_project.stg_employees'
+[0m21:45:14.937089 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_employees
+[0m21:45:14.944095 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_employees"
+[0m21:45:14.936128 [info ] [Thread-1 (]: 1 of 10 START sql table model exam2.stg_customers .............................. [RUN]
+[0m21:45:14.944829 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.my_new_project.stg_customers'
+[0m21:45:14.945151 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_customers
+[0m21:45:14.947344 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_customers"
+[0m21:45:14.948509 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_customers
+[0m21:45:14.966388 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_employees
+[0m21:45:14.989417 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_employees"
+[0m21:45:14.990771 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_customers"
+[0m21:45:14.992187 [debug] [Thread-2 (]: On model.my_new_project.stg_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_employees"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_employees`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    employee_id as id_empleado,
+    last_name as apellido,
+    first_name as nombre,
+    birthdate as fecha_nacimiento,
+    photo as foto,
+    notes as notas
+FROM  `data-transformation-486715`.`exam2`.`employees`
+    );
+  
+[0m21:45:14.992702 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m21:45:14.993149 [debug] [Thread-1 (]: On model.my_new_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_customers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_customers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_cliente,
+    "name" as nombre,
+    contact as contacto,
+    "address" as direccion,
+    city as ciudad,
+    postal_code as codigo_postal,
+    country as pais
+
+FROM  `data-transformation-486715`.`exam2`.`customers`
+    );
+  
+[0m21:45:15.023705 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:45:16.314969 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:33562097-18ad-4b1e-a431-6babc7ca2e91&page=queryresults
+[0m21:45:16.334029 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:bcf06073-5a43-48d2-b543-cf24c830a87e&page=queryresults
+[0m21:45:19.271991 [debug] [Thread-2 (]: SQL status: OK in 2.955 seconds
+[0m21:45:22.172709 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732D02F950>]}
+[0m21:45:22.173335 [info ] [Thread-2 (]: 2 of 10 OK created sql table model exam2.stg_employees ......................... [[32mCREATE TABLE (10.0 rows, 2.7 KiB processed)[0m in 7.23s]
+[0m21:45:22.174098 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_employees
+[0m21:45:22.174465 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_orders
+[0m21:45:22.174880 [info ] [Thread-2 (]: 3 of 10 START sql table model exam2.stg_orders ................................. [RUN]
+[0m21:45:22.175589 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_employees, now model.my_new_project.stg_orders)
+[0m21:45:22.175963 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_orders
+[0m21:45:22.179287 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_orders"
+[0m21:45:22.181186 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_orders
+[0m21:45:22.183976 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_orders"
+[0m21:45:22.184939 [debug] [Thread-2 (]: On model.my_new_project.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_orders"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_orders`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_pedido,
+    customer_id as fk_cliente,
+    employee_id as fk_empleado,
+    date as fecha_pedido,
+    shipper_id as fk_transporte
+FROM  `data-transformation-486715`.`exam2`.`orders`
+    );
+  
+[0m21:45:22.185386 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:45:23.507711 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:59bda071-a59d-4535-b518-6f047eaf160e&page=queryresults
+[0m21:45:25.363163 [debug] [Thread-2 (]: SQL status: OK in 1.854 seconds
+[0m21:45:25.672438 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732D08F280>]}
+[0m21:45:25.673540 [info ] [Thread-2 (]: 3 of 10 OK created sql table model exam2.stg_orders ............................ [[32mCREATE TABLE (196.0 rows, 7.7 KiB processed)[0m in 3.50s]
+[0m21:45:25.674885 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_orders
+[0m21:45:25.675655 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_shippers
+[0m21:45:25.676851 [info ] [Thread-2 (]: 4 of 10 START sql table model exam2.stg_shippers ............................... [RUN]
+[0m21:45:25.677825 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_orders, now model.my_new_project.stg_shippers)
+[0m21:45:25.678474 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_shippers
+[0m21:45:25.683060 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_shippers"
+[0m21:45:25.685324 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_shippers
+[0m21:45:25.690593 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_shippers"
+[0m21:45:25.692373 [debug] [Thread-2 (]: On model.my_new_project.stg_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_shippers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_shippers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_transporte,
+    "name" as nombre_transporte,
+    phone as telefono_transporte
+FROM  `data-transformation-486715`.`exam2`.`shippers`
+    );
+  
+[0m21:45:25.693182 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:45:27.011236 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:19af10aa-20e2-42ce-89c4-4dbf85d565b2&page=queryresults
+[0m21:45:29.602122 [debug] [Thread-2 (]: SQL status: OK in 2.589 seconds
+[0m21:45:29.845827 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732D10BED0>]}
+[0m21:45:29.848682 [info ] [Thread-2 (]: 4 of 10 OK created sql table model exam2.stg_shippers .......................... [[32mCREATE TABLE (3.0 rows, 72.0 Bytes processed)[0m in 4.17s]
+[0m21:45:29.851431 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_shippers
+[0m21:45:29.852747 [debug] [Thread-2 (]: Began running node model.my_new_project.int_orders_employees
+[0m21:45:29.854643 [info ] [Thread-2 (]: 5 of 10 START sql view model exam2.int_orders_employees ........................ [RUN]
+[0m21:45:29.856319 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_shippers, now model.my_new_project.int_orders_employees)
+[0m21:45:29.857314 [debug] [Thread-2 (]: Began compiling node model.my_new_project.int_orders_employees
+[0m21:45:29.864172 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.int_orders_employees"
+[0m21:45:29.866998 [debug] [Thread-2 (]: Began executing node model.my_new_project.int_orders_employees
+[0m21:45:29.893491 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.int_orders_employees"
+[0m21:45:29.895070 [debug] [Thread-2 (]: On model.my_new_project.int_orders_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_orders_employees"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_orders_employees`
+  OPTIONS()
+  as WITH orders AS (
+    SELECT
+        id_pedido,
+        fk_cliente,
+        fk_empleado,
+        fecha_pedido,
+        fk_transporte
+    FROM `data-transformation-486715`.`exam2`.`stg_orders`
+),
+employees AS (
+    SELECT
+        id_empleado,
+        
+    CONCAT(apellido, ' ', nombre)
+ AS nombre_completo,
+        fecha_nacimiento,
+        foto,
+        notas
+
+    FROM `data-transformation-486715`.`exam2`.`stg_employees`
+)
+
+SELECT
+    e.id_empleado,
+    o.id_pedido,
+    o.fk_cliente,
+    o.fecha_pedido,
+    e.nombre_completo,
+    e.fecha_nacimiento,
+    e.foto,
+    e.notas
+
+FROM orders o
+    JOIN employees e
+    ON o.fk_empleado = e.id_empleado;
+
+
+[0m21:45:29.895606 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:45:31.031671 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:c131915d-47f1-4e16-8790-8ac0dc979506&page=queryresults
+[0m21:45:31.619181 [debug] [Thread-2 (]: SQL status: OK in 0.586 seconds
+[0m21:45:31.628360 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732E796750>]}
+[0m21:45:31.630757 [info ] [Thread-2 (]: 5 of 10 OK created sql view model exam2.int_orders_employees ................... [[32mCREATE VIEW (0 processed)[0m in 1.77s]
+[0m21:45:31.633326 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_orders_employees
+[0m21:45:31.634766 [debug] [Thread-2 (]: Began running node model.my_new_project.int_orders_shippers
+[0m21:45:31.635871 [info ] [Thread-2 (]: 6 of 10 START sql view model exam2.int_orders_shippers ......................... [RUN]
+[0m21:45:31.637425 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_orders_employees, now model.my_new_project.int_orders_shippers)
+[0m21:45:31.638334 [debug] [Thread-2 (]: Began compiling node model.my_new_project.int_orders_shippers
+[0m21:45:31.645362 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.int_orders_shippers"
+[0m21:45:31.647502 [debug] [Thread-2 (]: Began executing node model.my_new_project.int_orders_shippers
+[0m21:45:31.652985 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.int_orders_shippers"
+[0m21:45:31.654463 [debug] [Thread-2 (]: On model.my_new_project.int_orders_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_orders_shippers"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_orders_shippers`
+  OPTIONS()
+  as WITH orders AS (
+    SELECT
+        id_pedido,
+        fk_cliente,
+        fecha_pedido,
+        fk_transporte,
+    FROM `data-transformation-486715`.`exam2`.`stg_orders`
+),
+shippers AS (
+    SELECT
+        id_transporte,
+        nombre_transporte,
+        telefono_transporte
+    FROM `data-transformation-486715`.`exam2`.`stg_shippers`
+)
+
+SELECT
+    s.id_transporte,
+    o.id_pedido,
+    o.fk_cliente,
+    o.fecha_pedido,
+    s.nombre_transporte,
+    s.telefono_transporte
+
+FROM orders o
+    JOIN shippers s
+    ON o.fk_transporte = s.id_transporte;
+
+
+[0m21:45:31.655177 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:45:32.789678 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:350538c9-d1e3-4b9b-9a46-1483256012f1&page=queryresults
+[0m21:45:33.810031 [debug] [Thread-2 (]: SQL status: OK in 1.018 seconds
+[0m21:45:33.819436 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732CD02CF0>]}
+[0m21:45:33.821548 [info ] [Thread-2 (]: 6 of 10 OK created sql view model exam2.int_orders_shippers .................... [[32mCREATE VIEW (0 processed)[0m in 2.18s]
+[0m21:45:33.823884 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_orders_shippers
+[0m21:45:33.825175 [debug] [Thread-2 (]: Began running node model.my_new_project.recognized_employees
+[0m21:45:33.826617 [info ] [Thread-2 (]: 7 of 10 START sql view model exam2.recognized_employees ........................ [RUN]
+[0m21:45:33.828103 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_orders_shippers, now model.my_new_project.recognized_employees)
+[0m21:45:33.829001 [debug] [Thread-2 (]: Began compiling node model.my_new_project.recognized_employees
+[0m21:45:33.834309 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.recognized_employees"
+[0m21:45:33.836792 [debug] [Thread-2 (]: Began executing node model.my_new_project.recognized_employees
+[0m21:45:33.841596 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.recognized_employees"
+[0m21:45:33.844359 [debug] [Thread-2 (]: On model.my_new_project.recognized_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.recognized_employees"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`recognized_employees`
+  OPTIONS()
+  as WITH employees AS (
+    SELECT
+        id_empleado,
+        nombre_completo,
+        fecha_nacimiento,
+        foto,
+        notas
+    FROM `data-transformation-486715`.`exam2`.`int_orders_employees`
+)
+
+SELECT
+    id_empleado,
+    nombre_completo,
+    foto,
+    COUNT(id_empleado) AS cantidad_ventas,
+    
+    CASE WHEN CAST(COUNT(id_empleado) AS NUMERIC) > 25 THEN 'recognized' ELSE 'normal' END
+ AS estado
+    
+
+
+FROM employees
+GROUP BY 1, 2, 3
+ORDER BY cantidad_ventas DESC;
+
+
+[0m21:45:33.845100 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:45:35.293418 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:42c28c1d-2b1a-4681-a0a4-5234cd4b6527&page=queryresults
+[0m21:45:35.741339 [debug] [Thread-2 (]: SQL status: OK in 0.446 seconds
+[0m21:45:35.743252 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732CD1A5D0>]}
+[0m21:45:35.743771 [info ] [Thread-2 (]: 7 of 10 OK created sql view model exam2.recognized_employees ................... [[32mCREATE VIEW (0 processed)[0m in 1.92s]
+[0m21:45:35.744538 [debug] [Thread-2 (]: Finished running node model.my_new_project.recognized_employees
+[0m21:45:35.744894 [debug] [Thread-2 (]: Began running node model.my_new_project.shipper_ranking
+[0m21:45:35.745301 [info ] [Thread-2 (]: 8 of 10 START sql view model exam2.shipper_ranking ............................. [RUN]
+[0m21:45:35.745881 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.recognized_employees, now model.my_new_project.shipper_ranking)
+[0m21:45:35.746259 [debug] [Thread-2 (]: Began compiling node model.my_new_project.shipper_ranking
+[0m21:45:35.748415 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.shipper_ranking"
+[0m21:45:35.749716 [debug] [Thread-2 (]: Began executing node model.my_new_project.shipper_ranking
+[0m21:45:35.752416 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.shipper_ranking"
+[0m21:45:35.753639 [debug] [Thread-2 (]: On model.my_new_project.shipper_ranking: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.shipper_ranking"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`shipper_ranking`
+  OPTIONS()
+  as WITH shippers AS (
+    SELECT
+        id_transporte,
+        nombre_transporte,
+        telefono_transporte
+    
+    FROM `data-transformation-486715`.`exam2`.`int_orders_shippers`
+)
+
+SELECT 
+    id_transporte,
+    nombre_transporte,
+    telefono_transporte,
+    COUNT(id_transporte) AS cantidad_pedidos
+
+FROM shippers
+GROUP BY 1, 2, 3
+ORDER BY cantidad_pedidos DESC;
+
+
+[0m21:45:35.754099 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:45:37.000144 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:57a3880d-2858-422b-98df-dc266bb5cc51&page=queryresults
+[0m21:45:37.544291 [debug] [Thread-2 (]: SQL status: OK in 0.543 seconds
+[0m21:45:37.546987 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732CD88EF0>]}
+[0m21:45:37.547761 [info ] [Thread-2 (]: 8 of 10 OK created sql view model exam2.shipper_ranking ........................ [[32mCREATE VIEW (0 processed)[0m in 1.80s]
+[0m21:45:37.548769 [debug] [Thread-2 (]: Finished running node model.my_new_project.shipper_ranking
+[0m21:48:23.650205 [debug] [Thread-1 (]: SQL status: OK in 187.314 seconds
+[0m21:48:24.004705 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f684be34-125e-453b-a747-25599cebec7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732CE09CD0>]}
+[0m21:48:24.005301 [info ] [Thread-1 (]: 1 of 10 OK created sql table model exam2.stg_customers ......................... [[32mCREATE TABLE (91.0 rows, 4.4 KiB processed)[0m in 189.06s]
+[0m21:48:24.006032 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_customers
+[0m21:48:24.013143 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\run_results.json
+[0m21:48:24.014499 [error] [MainThread]: CANCEL query list_data-transformation-486715 ................................... [[31mCANCEL[0m]
+[0m21:48:24.015145 [error] [MainThread]: CANCEL query list_data-transformation-486715_exam2 ............................. [[31mCANCEL[0m]
+[0m21:48:24.015575 [error] [MainThread]: CANCEL query model.my_new_project.shipper_ranking .............................. [[31mCANCEL[0m]
+[0m21:48:24.015988 [error] [MainThread]: CANCEL query model.my_new_project.stg_customers ................................ [[31mCANCEL[0m]
+[0m21:48:24.016608 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:48:24.050011 [info ] [MainThread]: 
+[0m21:48:24.050746 [info ] [MainThread]: [33mExited because of keyboard interrupt[0m
+[0m21:48:24.051411 [info ] [MainThread]: 
+[0m21:48:24.052096 [info ] [MainThread]: Done. PASS=8 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=8
+[0m21:48:24.052760 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:48:24.053299 [debug] [MainThread]: Connection 'list_data-transformation-486715' was properly closed.
+[0m21:48:24.053722 [debug] [MainThread]: Connection 'list_data-transformation-486715_exam2' was properly closed.
+[0m21:48:24.053964 [debug] [MainThread]: Connection 'model.my_new_project.shipper_ranking' was properly closed.
+[0m21:48:24.054202 [debug] [MainThread]: Connection 'model.my_new_project.stg_customers' was properly closed.
+[0m21:48:24.054515 [info ] [MainThread]: 
+[0m21:48:24.054953 [info ] [MainThread]: Finished running 4 table models, 4 view models in 0 hours 3 minutes and 11.22 seconds (191.22s).
+[0m21:48:24.055491 [error] [MainThread]: Encountered an error:
+
+[0m21:48:24.108356 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\requires.py", line 276, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\requires.py", line 321, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\requires.py", line 391, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\requires.py", line 368, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\requires.py", line 408, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\main.py", line 587, in run
+    results = task.run()
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\task\runnable.py", line 626, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\task\runnable.py", line 563, in execute_with_hooks
+    res = self.execute_nodes()
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\task\runnable.py", line 443, in execute_nodes
+    self.run_queue(pool)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\task\runnable.py", line 333, in run_queue
+    self.handle_job_queue(pool, callback)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\task\run.py", line 872, in handle_job_queue
+    node = self.job_queue.get()
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\graph\queue.py", line 136, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\queue.py", line 202, in get
+    self.not_empty.wait()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\CARLOS ESTEBAN\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 359, in wait
+    waiter.acquire()
+    ~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+
+[0m21:48:24.109812 [debug] [MainThread]: Command `dbt run` failed at 21:48:24.109546 after 195.35 seconds
+[0m21:48:24.110484 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732C908A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732CCA75F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732E6F56D0>]}
+[0m21:48:24.110846 [debug] [MainThread]: Flushing usage events
+[0m21:48:24.762305 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:48:28.764147 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022681D7DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002268312FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002268312FB10>]}
+
+
+============================== 21:48:28.768223 | 2c9ce44c-e799-46bd-845e-9c7a67242da7 ==============================
+[0m21:48:28.768223 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:48:28.768796 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:48:31.425749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002268243DE00>]}
+[0m21:48:31.488510 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002269599EBE0>]}
+[0m21:48:31.489364 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:48:31.890512 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m21:48:32.057276 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:48:32.057657 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:48:32.057922 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:48:32.112683 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226959A9650>]}
+[0m21:48:32.213922 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:48:32.216240 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:48:32.242762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022681DFAB70>]}
+[0m21:48:32.243217 [info ] [MainThread]: Found 1 seed, 10 models, 8 data tests, 4 sources, 541 macros
+[0m21:48:32.243639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226961CC830>]}
+[0m21:48:32.245686 [info ] [MainThread]: 
+[0m21:48:32.246089 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m21:48:32.246510 [info ] [MainThread]: 
+[0m21:48:32.247045 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m21:48:32.251371 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715'
+[0m21:48:32.251802 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:48:33.310325 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715_exam2'
+[0m21:48:33.311931 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:48:34.058493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226960928F0>]}
+[0m21:48:34.059318 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:48:34.104135 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_customers
+[0m21:48:34.104990 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_employees
+[0m21:48:34.104625 [info ] [Thread-1 (]: 1 of 10 START sql table model exam2.stg_customers .............................. [RUN]
+[0m21:48:34.105918 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.my_new_project.stg_customers'
+[0m21:48:34.106235 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_customers
+[0m21:48:34.114536 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_customers"
+[0m21:48:34.105398 [info ] [Thread-2 (]: 2 of 10 START sql table model exam2.stg_employees .............................. [RUN]
+[0m21:48:34.115344 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.my_new_project.stg_employees'
+[0m21:48:34.115673 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_employees
+[0m21:48:34.117930 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_employees"
+[0m21:48:34.119112 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_customers
+[0m21:48:34.132954 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:48:34.133458 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_employees
+[0m21:48:34.135229 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m21:48:35.146605 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_customers"
+[0m21:48:35.147899 [debug] [Thread-1 (]: On model.my_new_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_customers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_customers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_cliente,
+    "name" as nombre,
+    contact as contacto,
+    "address" as direccion,
+    city as ciudad,
+    postal_code as codigo_postal,
+    country as pais
+
+FROM  `data-transformation-486715`.`exam2`.`customers`
+    );
+  
+[0m21:48:35.214014 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_employees"
+[0m21:48:35.215003 [debug] [Thread-2 (]: On model.my_new_project.stg_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_employees"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_employees`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    employee_id as id_empleado,
+    last_name as apellido,
+    first_name as nombre,
+    birthdate as fecha_nacimiento,
+    photo as foto,
+    notes as notas
+FROM  `data-transformation-486715`.`exam2`.`employees`
+    );
+  
+[0m21:48:35.756222 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:83ccd8bf-8dd8-4b4d-979b-77f57cff32f5&page=queryresults
+[0m21:48:35.772332 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:e42a8fe8-e950-4aee-96ca-902436088fcd&page=queryresults
+[0m21:48:37.517789 [debug] [Thread-2 (]: SQL status: OK in 1.743 seconds
+[0m21:48:37.917155 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002269610F950>]}
+[0m21:48:37.917947 [info ] [Thread-2 (]: 2 of 10 OK created sql table model exam2.stg_employees ......................... [[32mCREATE TABLE (10.0 rows, 2.7 KiB processed)[0m in 3.80s]
+[0m21:48:37.919183 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_employees
+[0m21:48:37.919734 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_orders
+[0m21:48:37.920249 [info ] [Thread-2 (]: 3 of 10 START sql table model exam2.stg_orders ................................. [RUN]
+[0m21:48:37.920874 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_employees, now model.my_new_project.stg_orders)
+[0m21:48:37.921294 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_orders
+[0m21:48:37.923981 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_orders"
+[0m21:48:37.925102 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_orders
+[0m21:48:37.927882 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:48:38.901876 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_orders"
+[0m21:48:38.904068 [debug] [Thread-2 (]: On model.my_new_project.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_orders"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_orders`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_pedido,
+    customer_id as fk_cliente,
+    employee_id as fk_empleado,
+    date as fecha_pedido,
+    shipper_id as fk_transporte
+FROM  `data-transformation-486715`.`exam2`.`orders`
+    );
+  
+[0m21:48:39.064198 [debug] [Thread-1 (]: SQL status: OK in 3.306 seconds
+[0m21:48:39.387650 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022696770AA0>]}
+[0m21:48:39.388232 [info ] [Thread-1 (]: 1 of 10 OK created sql table model exam2.stg_customers ......................... [[32mCREATE TABLE (91.0 rows, 4.4 KiB processed)[0m in 5.28s]
+[0m21:48:39.389147 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_customers
+[0m21:48:39.389593 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_shippers
+[0m21:48:39.390041 [info ] [Thread-1 (]: 4 of 10 START sql table model exam2.stg_shippers ............................... [RUN]
+[0m21:48:39.390658 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_customers, now model.my_new_project.stg_shippers)
+[0m21:48:39.390990 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_shippers
+[0m21:48:39.393369 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_shippers"
+[0m21:48:39.394437 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_shippers
+[0m21:48:39.396633 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:48:39.435875 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:b4cf0b8b-eeeb-46f2-ac12-9b4fe63b09e8&page=queryresults
+[0m21:48:40.439288 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_shippers"
+[0m21:48:40.443963 [debug] [Thread-1 (]: On model.my_new_project.stg_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_shippers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_shippers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_transporte,
+    "name" as nombre_transporte,
+    phone as telefono_transporte
+FROM  `data-transformation-486715`.`exam2`.`shippers`
+    );
+  
+[0m21:48:40.955488 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:c49c0dc2-fe9e-4b96-a7d5-d6627405bdd6&page=queryresults
+[0m21:48:42.160366 [debug] [Thread-2 (]: SQL status: OK in 2.723 seconds
+[0m21:48:42.520321 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226823DE030>]}
+[0m21:48:42.523116 [info ] [Thread-2 (]: 3 of 10 OK created sql table model exam2.stg_orders ............................ [[32mCREATE TABLE (196.0 rows, 7.7 KiB processed)[0m in 4.60s]
+[0m21:48:42.525453 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_orders
+[0m21:48:42.526807 [debug] [Thread-2 (]: Began running node model.my_new_project.int_customers_in_eu
+[0m21:48:42.528600 [info ] [Thread-2 (]: 5 of 10 START sql view model exam2.int_customers_in_eu ......................... [RUN]
+[0m21:48:42.530010 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_orders, now model.my_new_project.int_customers_in_eu)
+[0m21:48:42.530945 [debug] [Thread-2 (]: Began compiling node model.my_new_project.int_customers_in_eu
+[0m21:48:42.536063 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.int_customers_in_eu"
+[0m21:48:42.537499 [debug] [Thread-2 (]: Began executing node model.my_new_project.int_customers_in_eu
+[0m21:48:42.555698 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.int_customers_in_eu"
+[0m21:48:42.557254 [debug] [Thread-2 (]: On model.my_new_project.int_customers_in_eu: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_customers_in_eu"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_customers_in_eu`
+  OPTIONS()
+  as WITH customers AS (
+    SELECT
+        id_cliente,
+        nombre,
+        contacto,
+        direccion,
+        ciudad,
+        codigo_postal,
+        pais
+
+    FROM `data-transformation-486715`.`exam2`.`stg_customers`
+),
+
+eu_list AS (
+    SELECT
+        Country_name AS nombre
+    FROM `data-transformation-486715`.`exam2`.`countriesEU`
+)
+
+SELECT
+    c.id_cliente,
+    c.nombre,
+    c.contacto,
+    c.direccion,
+    c.ciudad,
+    c.codigo_postal,
+    c.pais,
+    CASE WHEN e.nombre IS NOT NULL THEN 'EU' ELSE 'otro' END AS estado
+
+FROM customers c
+LEFT JOIN eu_list e
+    ON c.pais = e.nombre;
+
+
+[0m21:48:42.557840 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:48:42.603343 [debug] [Thread-1 (]: SQL status: OK in 1.646 seconds
+[0m21:48:43.134778 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002269656BBD0>]}
+[0m21:48:43.135350 [info ] [Thread-1 (]: 4 of 10 OK created sql table model exam2.stg_shippers .......................... [[32mCREATE TABLE (3.0 rows, 72.0 Bytes processed)[0m in 3.74s]
+[0m21:48:43.136045 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_shippers
+[0m21:48:43.136396 [debug] [Thread-1 (]: Began running node model.my_new_project.int_orders_employees
+[0m21:48:43.136790 [info ] [Thread-1 (]: 6 of 10 START sql view model exam2.int_orders_employees ........................ [RUN]
+[0m21:48:43.137388 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_shippers, now model.my_new_project.int_orders_employees)
+[0m21:48:43.137718 [debug] [Thread-1 (]: Began compiling node model.my_new_project.int_orders_employees
+[0m21:48:43.141307 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.int_orders_employees"
+[0m21:48:43.142321 [debug] [Thread-1 (]: Began executing node model.my_new_project.int_orders_employees
+[0m21:48:43.144787 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.int_orders_employees"
+[0m21:48:43.145841 [debug] [Thread-1 (]: On model.my_new_project.int_orders_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_orders_employees"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_orders_employees`
+  OPTIONS()
+  as WITH orders AS (
+    SELECT
+        id_pedido,
+        fk_cliente,
+        fk_empleado,
+        fecha_pedido,
+        fk_transporte
+    FROM `data-transformation-486715`.`exam2`.`stg_orders`
+),
+employees AS (
+    SELECT
+        id_empleado,
+        
+    CONCAT(apellido, ' ', nombre)
+ AS nombre_completo,
+        fecha_nacimiento,
+        foto,
+        notas
+
+    FROM `data-transformation-486715`.`exam2`.`stg_employees`
+)
+
+SELECT
+    e.id_empleado,
+    o.id_pedido,
+    o.fk_cliente,
+    o.fecha_pedido,
+    e.nombre_completo,
+    e.fecha_nacimiento,
+    e.foto,
+    e.notas
+
+FROM orders o
+    JOIN employees e
+    ON o.fk_empleado = e.id_empleado;
+
+
+[0m21:48:43.146302 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:48:43.432624 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:94367d06-7838-4e45-a8ed-2c568bd553c2&page=queryresults
+[0m21:48:43.434931 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:94367d06-7838-4e45-a8ed-2c568bd553c2&page=queryresults
+[0m21:48:43.465162 [debug] [Thread-2 (]: Database Error in model int_customers_in_eu (models\intermediate\int_customers_in_eu.sql)
+  Not found: Table data-transformation-486715:exam2.countriesEU was not found in location US
+  compiled code at target\run\my_new_project\models\intermediate\int_customers_in_eu.sql
+[0m21:48:43.465954 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002269621E7B0>]}
+[0m21:48:43.466876 [error] [Thread-2 (]: 5 of 10 ERROR creating sql view model exam2.int_customers_in_eu ................ [[31mERROR[0m in 0.94s]
+[0m21:48:43.468059 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_customers_in_eu
+[0m21:48:43.468603 [debug] [Thread-2 (]: Began running node model.my_new_project.int_orders_shippers
+[0m21:48:43.470096 [debug] [Thread-5 (]: Marking all children of 'model.my_new_project.int_customers_in_eu' to be skipped because of status 'error'.  Reason: Database Error in model int_customers_in_eu (models\intermediate\int_customers_in_eu.sql)
+  Not found: Table data-transformation-486715:exam2.countriesEU was not found in location US
+  compiled code at target\run\my_new_project\models\intermediate\int_customers_in_eu.sql.
+[0m21:48:43.469321 [info ] [Thread-2 (]: 7 of 10 START sql view model exam2.int_orders_shippers ......................... [RUN]
+[0m21:48:43.471858 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_customers_in_eu, now model.my_new_project.int_orders_shippers)
+[0m21:48:43.472376 [debug] [Thread-2 (]: Began compiling node model.my_new_project.int_orders_shippers
+[0m21:48:43.475532 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.int_orders_shippers"
+[0m21:48:43.476972 [debug] [Thread-2 (]: Began executing node model.my_new_project.int_orders_shippers
+[0m21:48:43.484262 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.int_orders_shippers"
+[0m21:48:43.485262 [debug] [Thread-2 (]: On model.my_new_project.int_orders_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_orders_shippers"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_orders_shippers`
+  OPTIONS()
+  as WITH orders AS (
+    SELECT
+        id_pedido,
+        fk_cliente,
+        fecha_pedido,
+        fk_transporte,
+    FROM `data-transformation-486715`.`exam2`.`stg_orders`
+),
+shippers AS (
+    SELECT
+        id_transporte,
+        nombre_transporte,
+        telefono_transporte
+    FROM `data-transformation-486715`.`exam2`.`stg_shippers`
+)
+
+SELECT
+    s.id_transporte,
+    o.id_pedido,
+    o.fk_cliente,
+    o.fecha_pedido,
+    s.nombre_transporte,
+    s.telefono_transporte
+
+FROM orders o
+    JOIN shippers s
+    ON o.fk_transporte = s.id_transporte;
+
+
+[0m21:48:43.485716 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:48:44.314824 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:eccc9cb4-b2d8-4508-aa28-2e6f1db98d6d&page=queryresults
+[0m21:48:44.832546 [debug] [Thread-1 (]: SQL status: OK in 0.517 seconds
+[0m21:48:44.835876 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022696807B30>]}
+[0m21:48:44.836792 [info ] [Thread-1 (]: 6 of 10 OK created sql view model exam2.int_orders_employees ................... [[32mCREATE VIEW (0 processed)[0m in 1.70s]
+[0m21:48:44.837942 [debug] [Thread-1 (]: Finished running node model.my_new_project.int_orders_employees
+[0m21:48:44.838506 [debug] [Thread-1 (]: Began running node model.my_new_project.eu_discount
+[0m21:48:44.839302 [info ] [Thread-1 (]: 8 of 10 SKIP relation exam2.eu_discount ........................................ [[33mSKIP[0m]
+[0m21:48:44.840070 [debug] [Thread-1 (]: Finished running node model.my_new_project.eu_discount
+[0m21:48:44.840591 [debug] [Thread-1 (]: Began running node model.my_new_project.recognized_employees
+[0m21:48:44.841200 [info ] [Thread-1 (]: 9 of 10 START sql view model exam2.recognized_employees ........................ [RUN]
+[0m21:48:44.841940 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_orders_employees, now model.my_new_project.recognized_employees)
+[0m21:48:44.842422 [debug] [Thread-1 (]: Began compiling node model.my_new_project.recognized_employees
+[0m21:48:44.846544 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.recognized_employees"
+[0m21:48:44.847703 [debug] [Thread-1 (]: Began executing node model.my_new_project.recognized_employees
+[0m21:48:44.850796 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.recognized_employees"
+[0m21:48:44.851892 [debug] [Thread-1 (]: On model.my_new_project.recognized_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.recognized_employees"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`recognized_employees`
+  OPTIONS()
+  as WITH employees AS (
+    SELECT
+        id_empleado,
+        nombre_completo,
+        fecha_nacimiento,
+        foto,
+        notas
+    FROM `data-transformation-486715`.`exam2`.`int_orders_employees`
+)
+
+SELECT
+    id_empleado,
+    nombre_completo,
+    foto,
+    COUNT(id_empleado) AS cantidad_ventas,
+    
+    CASE WHEN CAST(COUNT(id_empleado) AS NUMERIC) > 25 THEN 'recognized' ELSE 'normal' END
+ AS estado
+    
+
+
+FROM employees
+GROUP BY 1, 2, 3
+ORDER BY cantidad_ventas DESC;
+
+
+[0m21:48:44.852416 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:48:45.108091 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:9644e352-fb08-40b1-851b-5b30538ca790&page=queryresults
+[0m21:48:45.594370 [debug] [Thread-2 (]: SQL status: OK in 0.484 seconds
+[0m21:48:45.603401 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002269694CA10>]}
+[0m21:48:45.605224 [info ] [Thread-2 (]: 7 of 10 OK created sql view model exam2.int_orders_shippers .................... [[32mCREATE VIEW (0 processed)[0m in 2.13s]
+[0m21:48:45.607477 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_orders_shippers
+[0m21:48:45.609092 [debug] [Thread-2 (]: Began running node model.my_new_project.shipper_ranking
+[0m21:48:45.610289 [info ] [Thread-2 (]: 10 of 10 START sql view model exam2.shipper_ranking ............................ [RUN]
+[0m21:48:45.611603 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_orders_shippers, now model.my_new_project.shipper_ranking)
+[0m21:48:45.612463 [debug] [Thread-2 (]: Began compiling node model.my_new_project.shipper_ranking
+[0m21:48:45.616952 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.shipper_ranking"
+[0m21:48:45.618664 [debug] [Thread-2 (]: Began executing node model.my_new_project.shipper_ranking
+[0m21:48:45.623513 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.shipper_ranking"
+[0m21:48:45.625007 [debug] [Thread-2 (]: On model.my_new_project.shipper_ranking: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.shipper_ranking"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`shipper_ranking`
+  OPTIONS()
+  as WITH shippers AS (
+    SELECT
+        id_transporte,
+        nombre_transporte,
+        telefono_transporte
+    
+    FROM `data-transformation-486715`.`exam2`.`int_orders_shippers`
+)
+
+SELECT 
+    id_transporte,
+    nombre_transporte,
+    telefono_transporte,
+    COUNT(id_transporte) AS cantidad_pedidos
+
+FROM shippers
+GROUP BY 1, 2, 3
+ORDER BY cantidad_pedidos DESC;
+
+
+[0m21:48:45.625724 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:48:46.302722 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:96104f21-1131-4542-b066-fd1df6df1d89&page=queryresults
+[0m21:48:46.779948 [debug] [Thread-1 (]: SQL status: OK in 0.476 seconds
+[0m21:48:46.783581 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226961BF0B0>]}
+[0m21:48:46.784111 [info ] [Thread-1 (]: 9 of 10 OK created sql view model exam2.recognized_employees ................... [[32mCREATE VIEW (0 processed)[0m in 1.94s]
+[0m21:48:46.784799 [debug] [Thread-1 (]: Finished running node model.my_new_project.recognized_employees
+[0m21:48:46.857190 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:059566ad-6293-4e06-9084-0a48bc957def&page=queryresults
+[0m21:48:47.418339 [debug] [Thread-2 (]: SQL status: OK in 0.560 seconds
+[0m21:48:47.426777 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c9ce44c-e799-46bd-845e-9c7a67242da7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002269694C770>]}
+[0m21:48:47.429234 [info ] [Thread-2 (]: 10 of 10 OK created sql view model exam2.shipper_ranking ....................... [[32mCREATE VIEW (0 processed)[0m in 1.82s]
+[0m21:48:47.432419 [debug] [Thread-2 (]: Finished running node model.my_new_project.shipper_ranking
+[0m21:48:47.436127 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:48:47.486420 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:48:47.486759 [debug] [MainThread]: Connection 'list_data-transformation-486715' was properly closed.
+[0m21:48:47.487012 [debug] [MainThread]: Connection 'list_data-transformation-486715_exam2' was properly closed.
+[0m21:48:47.487258 [debug] [MainThread]: Connection 'model.my_new_project.recognized_employees' was properly closed.
+[0m21:48:47.487499 [debug] [MainThread]: Connection 'model.my_new_project.shipper_ranking' was properly closed.
+[0m21:48:47.487843 [info ] [MainThread]: 
+[0m21:48:47.488293 [info ] [MainThread]: Finished running 4 table models, 6 view models in 0 hours 0 minutes and 15.24 seconds (15.24s).
+[0m21:48:47.490801 [debug] [MainThread]: Command end result
+[0m21:48:47.513517 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:48:47.516214 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:48:47.522559 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\run_results.json
+[0m21:48:47.522913 [info ] [MainThread]: 
+[0m21:48:47.523385 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:48:47.523854 [info ] [MainThread]: 
+[0m21:48:47.524341 [error] [MainThread]: [31mFailure in model int_customers_in_eu (models\intermediate\int_customers_in_eu.sql)[0m
+[0m21:48:47.524807 [error] [MainThread]:   Database Error in model int_customers_in_eu (models\intermediate\int_customers_in_eu.sql)
+  Not found: Table data-transformation-486715:exam2.countriesEU was not found in location US
+  compiled code at target\run\my_new_project\models\intermediate\int_customers_in_eu.sql
+[0m21:48:47.525204 [info ] [MainThread]: 
+[0m21:48:47.525657 [info ] [MainThread]:   compiled code at target\compiled\my_new_project\models\intermediate\int_customers_in_eu.sql
+[0m21:48:47.526053 [info ] [MainThread]: 
+[0m21:48:47.526475 [info ] [MainThread]: Done. PASS=8 WARN=0 ERROR=1 SKIP=1 NO-OP=0 TOTAL=10
+[0m21:48:47.527359 [debug] [MainThread]: Command `dbt run` failed at 21:48:47.527248 after 18.91 seconds
+[0m21:48:47.527688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022696806210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022682385A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226969C6CF0>]}
+[0m21:48:47.528036 [debug] [MainThread]: Flushing usage events
+[0m21:48:47.956015 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:49:11.569570 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020101BEDE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020102FABED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020102FABB10>]}
+
+
+============================== 21:49:11.573728 | 2522d896-fc04-44e7-88e5-569368d79564 ==============================
+[0m21:49:11.573728 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:49:11.574331 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:49:14.148437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201022A9E00>]}
+[0m21:49:14.211405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201157A2BE0>]}
+[0m21:49:14.212014 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:49:14.593541 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m21:49:14.745969 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:49:14.746313 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:49:14.746557 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:49:14.798052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201157D1650>]}
+[0m21:49:14.890335 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:49:14.892758 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:49:14.919213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020101C6AB70>]}
+[0m21:49:14.919755 [info ] [MainThread]: Found 1 seed, 10 models, 8 data tests, 4 sources, 541 macros
+[0m21:49:14.920267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020115FE8830>]}
+[0m21:49:14.923165 [info ] [MainThread]: 
+[0m21:49:14.923841 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m21:49:14.924342 [info ] [MainThread]: 
+[0m21:49:14.924977 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m21:49:14.930703 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715'
+[0m21:49:14.931396 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:49:15.886739 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715_exam2'
+[0m21:49:15.888609 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:49:16.662303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020115F3A8F0>]}
+[0m21:49:16.664180 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:49:16.718262 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_customers
+[0m21:49:16.718760 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_employees
+[0m21:49:16.719231 [info ] [Thread-1 (]: 1 of 10 START sql table model exam2.stg_customers .............................. [RUN]
+[0m21:49:16.720333 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.my_new_project.stg_customers'
+[0m21:49:16.720655 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_customers
+[0m21:49:16.729400 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_customers"
+[0m21:49:16.719742 [info ] [Thread-2 (]: 2 of 10 START sql table model exam2.stg_employees .............................. [RUN]
+[0m21:49:16.730617 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.my_new_project.stg_employees'
+[0m21:49:16.731069 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_employees
+[0m21:49:16.734516 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_employees"
+[0m21:49:16.735395 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_customers
+[0m21:49:16.747660 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_employees
+[0m21:49:16.749581 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:49:16.751539 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m21:49:17.801215 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_customers"
+[0m21:49:17.803740 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_employees"
+[0m21:49:17.805313 [debug] [Thread-1 (]: On model.my_new_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_customers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_customers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_cliente,
+    "name" as nombre,
+    contact as contacto,
+    "address" as direccion,
+    city as ciudad,
+    postal_code as codigo_postal,
+    country as pais
+
+FROM  `data-transformation-486715`.`exam2`.`customers`
+    );
+  
+[0m21:49:17.807148 [debug] [Thread-2 (]: On model.my_new_project.stg_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_employees"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_employees`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    employee_id as id_empleado,
+    last_name as apellido,
+    first_name as nombre,
+    birthdate as fecha_nacimiento,
+    photo as foto,
+    notes as notas
+FROM  `data-transformation-486715`.`exam2`.`employees`
+    );
+  
+[0m21:49:18.253991 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:49b05f62-5113-48cd-aa27-f5d556379455&page=queryresults
+[0m21:49:18.461889 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:7c2f62d4-fc79-4bd8-a9a5-670ad7e7413e&page=queryresults
+[0m21:49:19.916512 [debug] [Thread-1 (]: SQL status: OK in 1.661 seconds
+[0m21:49:20.271378 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020115F2F4D0>]}
+[0m21:49:20.272191 [info ] [Thread-1 (]: 1 of 10 OK created sql table model exam2.stg_customers ......................... [[32mCREATE TABLE (91.0 rows, 4.4 KiB processed)[0m in 3.55s]
+[0m21:49:20.273117 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_customers
+[0m21:49:20.273553 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_orders
+[0m21:49:20.274048 [info ] [Thread-1 (]: 3 of 10 START sql table model exam2.stg_orders ................................. [RUN]
+[0m21:49:20.274905 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_customers, now model.my_new_project.stg_orders)
+[0m21:49:20.275296 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_orders
+[0m21:49:20.278062 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_orders"
+[0m21:49:20.279204 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_orders
+[0m21:49:20.281575 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:49:20.466620 [debug] [Thread-2 (]: SQL status: OK in 2.003 seconds
+[0m21:49:20.815429 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002011659CE10>]}
+[0m21:49:20.818249 [info ] [Thread-2 (]: 2 of 10 OK created sql table model exam2.stg_employees ......................... [[32mCREATE TABLE (10.0 rows, 2.7 KiB processed)[0m in 4.08s]
+[0m21:49:20.821951 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_employees
+[0m21:49:20.823900 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_shippers
+[0m21:49:20.826315 [info ] [Thread-2 (]: 4 of 10 START sql table model exam2.stg_shippers ............................... [RUN]
+[0m21:49:20.828706 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_employees, now model.my_new_project.stg_shippers)
+[0m21:49:20.830595 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_shippers
+[0m21:49:20.838798 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_shippers"
+[0m21:49:20.839931 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_shippers
+[0m21:49:20.842182 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:49:21.224020 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_orders"
+[0m21:49:21.224982 [debug] [Thread-1 (]: On model.my_new_project.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_orders"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_orders`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_pedido,
+    customer_id as fk_cliente,
+    employee_id as fk_empleado,
+    date as fecha_pedido,
+    shipper_id as fk_transporte
+FROM  `data-transformation-486715`.`exam2`.`orders`
+    );
+  
+[0m21:49:21.646312 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:896b5147-0e08-407d-9bf1-db3613a62161&page=queryresults
+[0m21:49:21.780534 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_shippers"
+[0m21:49:21.785545 [debug] [Thread-2 (]: On model.my_new_project.stg_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_shippers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_shippers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_transporte,
+    "name" as nombre_transporte,
+    phone as telefono_transporte
+FROM  `data-transformation-486715`.`exam2`.`shippers`
+    );
+  
+[0m21:49:22.244788 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:ec1b083d-d569-4b05-bcf8-6985c52b075e&page=queryresults
+[0m21:49:23.544911 [debug] [Thread-1 (]: SQL status: OK in 1.897 seconds
+[0m21:49:23.795694 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020116395D10>]}
+[0m21:49:23.796508 [info ] [Thread-1 (]: 3 of 10 OK created sql table model exam2.stg_orders ............................ [[32mCREATE TABLE (196.0 rows, 7.7 KiB processed)[0m in 3.52s]
+[0m21:49:23.797523 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_orders
+[0m21:49:23.798068 [debug] [Thread-1 (]: Began running node model.my_new_project.int_customers_in_eu
+[0m21:49:23.798755 [info ] [Thread-1 (]: 5 of 10 START sql view model exam2.int_customers_in_eu ......................... [RUN]
+[0m21:49:23.799885 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_orders, now model.my_new_project.int_customers_in_eu)
+[0m21:49:23.800403 [debug] [Thread-1 (]: Began compiling node model.my_new_project.int_customers_in_eu
+[0m21:49:23.804417 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.int_customers_in_eu"
+[0m21:49:23.806433 [debug] [Thread-1 (]: Began executing node model.my_new_project.int_customers_in_eu
+[0m21:49:23.829977 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.int_customers_in_eu"
+[0m21:49:23.831095 [debug] [Thread-1 (]: On model.my_new_project.int_customers_in_eu: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_customers_in_eu"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_customers_in_eu`
+  OPTIONS()
+  as WITH customers AS (
+    SELECT
+        id_cliente,
+        nombre,
+        contacto,
+        direccion,
+        ciudad,
+        codigo_postal,
+        pais
+
+    FROM `data-transformation-486715`.`exam2`.`stg_customers`
+),
+
+eu_list AS (
+    SELECT
+        Country_name AS nombre
+    FROM `data-transformation-486715`.`exam2`.`countriesEU`
+)
+
+SELECT
+    c.id_cliente,
+    c.nombre,
+    c.contacto,
+    c.direccion,
+    c.ciudad,
+    c.codigo_postal,
+    c.pais,
+    CASE WHEN e.nombre IS NOT NULL THEN 'EU' ELSE 'otro' END AS estado
+
+FROM customers c
+LEFT JOIN eu_list e
+    ON c.pais = e.nombre;
+
+
+[0m21:49:23.831569 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:49:24.102617 [debug] [Thread-2 (]: SQL status: OK in 1.856 seconds
+[0m21:49:24.389871 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002011665F750>]}
+[0m21:49:24.392221 [info ] [Thread-2 (]: 4 of 10 OK created sql table model exam2.stg_shippers .......................... [[32mCREATE TABLE (3.0 rows, 72.0 Bytes processed)[0m in 3.56s]
+[0m21:49:24.395113 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_shippers
+[0m21:49:24.396747 [debug] [Thread-2 (]: Began running node model.my_new_project.int_orders_employees
+[0m21:49:24.398920 [info ] [Thread-2 (]: 6 of 10 START sql view model exam2.int_orders_employees ........................ [RUN]
+[0m21:49:24.400562 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_shippers, now model.my_new_project.int_orders_employees)
+[0m21:49:24.401600 [debug] [Thread-2 (]: Began compiling node model.my_new_project.int_orders_employees
+[0m21:49:24.409611 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.int_orders_employees"
+[0m21:49:24.411825 [debug] [Thread-2 (]: Began executing node model.my_new_project.int_orders_employees
+[0m21:49:24.415939 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.int_orders_employees"
+[0m21:49:24.417513 [debug] [Thread-2 (]: On model.my_new_project.int_orders_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_orders_employees"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_orders_employees`
+  OPTIONS()
+  as WITH orders AS (
+    SELECT
+        id_pedido,
+        fk_cliente,
+        fk_empleado,
+        fecha_pedido,
+        fk_transporte
+    FROM `data-transformation-486715`.`exam2`.`stg_orders`
+),
+employees AS (
+    SELECT
+        id_empleado,
+        
+    CONCAT(apellido, ' ', nombre)
+ AS nombre_completo,
+        fecha_nacimiento,
+        foto,
+        notas
+
+    FROM `data-transformation-486715`.`exam2`.`stg_employees`
+)
+
+SELECT
+    e.id_empleado,
+    o.id_pedido,
+    o.fk_cliente,
+    o.fecha_pedido,
+    e.nombre_completo,
+    e.fecha_nacimiento,
+    e.foto,
+    e.notas
+
+FROM orders o
+    JOIN employees e
+    ON o.fk_empleado = e.id_empleado;
+
+
+[0m21:49:24.418194 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:49:25.045498 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:742d69d2-fb85-4887-8e61-56bc8669e47c&page=queryresults
+[0m21:49:25.047769 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:742d69d2-fb85-4887-8e61-56bc8669e47c&page=queryresults
+[0m21:49:25.078770 [debug] [Thread-1 (]: Database Error in model int_customers_in_eu (models\intermediate\int_customers_in_eu.sql)
+  Not found: Table data-transformation-486715:exam2.countriesEU was not found in location US
+  compiled code at target\run\my_new_project\models\intermediate\int_customers_in_eu.sql
+[0m21:49:25.079566 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020115AF9780>]}
+[0m21:49:25.080494 [error] [Thread-1 (]: 5 of 10 ERROR creating sql view model exam2.int_customers_in_eu ................ [[31mERROR[0m in 1.28s]
+[0m21:49:25.081579 [debug] [Thread-1 (]: Finished running node model.my_new_project.int_customers_in_eu
+[0m21:49:25.082262 [debug] [Thread-1 (]: Began running node model.my_new_project.int_orders_shippers
+[0m21:49:25.083303 [debug] [Thread-5 (]: Marking all children of 'model.my_new_project.int_customers_in_eu' to be skipped because of status 'error'.  Reason: Database Error in model int_customers_in_eu (models\intermediate\int_customers_in_eu.sql)
+  Not found: Table data-transformation-486715:exam2.countriesEU was not found in location US
+  compiled code at target\run\my_new_project\models\intermediate\int_customers_in_eu.sql.
+[0m21:49:25.084001 [info ] [Thread-1 (]: 7 of 10 START sql view model exam2.int_orders_shippers ......................... [RUN]
+[0m21:49:25.085653 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_customers_in_eu, now model.my_new_project.int_orders_shippers)
+[0m21:49:25.086164 [debug] [Thread-1 (]: Began compiling node model.my_new_project.int_orders_shippers
+[0m21:49:25.090614 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.int_orders_shippers"
+[0m21:49:25.092016 [debug] [Thread-1 (]: Began executing node model.my_new_project.int_orders_shippers
+[0m21:49:25.097851 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.int_orders_shippers"
+[0m21:49:25.099106 [debug] [Thread-1 (]: On model.my_new_project.int_orders_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_orders_shippers"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_orders_shippers`
+  OPTIONS()
+  as WITH orders AS (
+    SELECT
+        id_pedido,
+        fk_cliente,
+        fecha_pedido,
+        fk_transporte,
+    FROM `data-transformation-486715`.`exam2`.`stg_orders`
+),
+shippers AS (
+    SELECT
+        id_transporte,
+        nombre_transporte,
+        telefono_transporte
+    FROM `data-transformation-486715`.`exam2`.`stg_shippers`
+)
+
+SELECT
+    s.id_transporte,
+    o.id_pedido,
+    o.fk_cliente,
+    o.fecha_pedido,
+    s.nombre_transporte,
+    s.telefono_transporte
+
+FROM orders o
+    JOIN shippers s
+    ON o.fk_transporte = s.id_transporte;
+
+
+[0m21:49:25.099597 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:49:25.298662 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:98abfc6a-6c28-42cb-8986-dcdce3e052c1&page=queryresults
+[0m21:49:25.903389 [debug] [Thread-2 (]: SQL status: OK in 0.603 seconds
+[0m21:49:25.912737 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020116633C50>]}
+[0m21:49:25.914700 [info ] [Thread-2 (]: 6 of 10 OK created sql view model exam2.int_orders_employees ................... [[32mCREATE VIEW (0 processed)[0m in 1.51s]
+[0m21:49:25.916990 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_orders_employees
+[0m21:49:25.918219 [debug] [Thread-2 (]: Began running node model.my_new_project.eu_discount
+[0m21:49:25.919612 [info ] [Thread-2 (]: 8 of 10 SKIP relation exam2.eu_discount ........................................ [[33mSKIP[0m]
+[0m21:49:25.920939 [debug] [Thread-2 (]: Finished running node model.my_new_project.eu_discount
+[0m21:49:25.921892 [debug] [Thread-2 (]: Began running node model.my_new_project.recognized_employees
+[0m21:49:25.923192 [info ] [Thread-2 (]: 9 of 10 START sql view model exam2.recognized_employees ........................ [RUN]
+[0m21:49:25.924425 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_orders_employees, now model.my_new_project.recognized_employees)
+[0m21:49:25.925210 [debug] [Thread-2 (]: Began compiling node model.my_new_project.recognized_employees
+[0m21:49:25.932637 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.recognized_employees"
+[0m21:49:25.934404 [debug] [Thread-2 (]: Began executing node model.my_new_project.recognized_employees
+[0m21:49:25.938526 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.recognized_employees"
+[0m21:49:25.940566 [debug] [Thread-2 (]: On model.my_new_project.recognized_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.recognized_employees"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`recognized_employees`
+  OPTIONS()
+  as WITH employees AS (
+    SELECT
+        id_empleado,
+        nombre_completo,
+        fecha_nacimiento,
+        foto,
+        notas
+    FROM `data-transformation-486715`.`exam2`.`int_orders_employees`
+)
+
+SELECT
+    id_empleado,
+    nombre_completo,
+    foto,
+    COUNT(id_empleado) AS cantidad_ventas,
+    
+    CASE WHEN CAST(COUNT(id_empleado) AS NUMERIC) > 25 THEN 'recognized' ELSE 'normal' END
+ AS estado
+    
+
+
+FROM employees
+GROUP BY 1, 2, 3
+ORDER BY cantidad_ventas DESC;
+
+
+[0m21:49:25.941702 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:49:26.272330 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:25cb837c-6119-4754-9ab1-e61b7a4c5850&page=queryresults
+[0m21:49:26.861016 [debug] [Thread-1 (]: SQL status: OK in 0.587 seconds
+[0m21:49:26.870252 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020116633830>]}
+[0m21:49:26.872952 [info ] [Thread-1 (]: 7 of 10 OK created sql view model exam2.int_orders_shippers .................... [[32mCREATE VIEW (0 processed)[0m in 1.78s]
+[0m21:49:26.876201 [debug] [Thread-1 (]: Finished running node model.my_new_project.int_orders_shippers
+[0m21:49:26.878628 [debug] [Thread-1 (]: Began running node model.my_new_project.shipper_ranking
+[0m21:49:26.880114 [info ] [Thread-1 (]: 10 of 10 START sql view model exam2.shipper_ranking ............................ [RUN]
+[0m21:49:26.881732 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_orders_shippers, now model.my_new_project.shipper_ranking)
+[0m21:49:26.882896 [debug] [Thread-1 (]: Began compiling node model.my_new_project.shipper_ranking
+[0m21:49:26.888121 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.shipper_ranking"
+[0m21:49:26.890485 [debug] [Thread-1 (]: Began executing node model.my_new_project.shipper_ranking
+[0m21:49:26.895918 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.shipper_ranking"
+[0m21:49:26.897665 [debug] [Thread-1 (]: On model.my_new_project.shipper_ranking: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.shipper_ranking"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`shipper_ranking`
+  OPTIONS()
+  as WITH shippers AS (
+    SELECT
+        id_transporte,
+        nombre_transporte,
+        telefono_transporte
+    
+    FROM `data-transformation-486715`.`exam2`.`int_orders_shippers`
+)
+
+SELECT 
+    id_transporte,
+    nombre_transporte,
+    telefono_transporte,
+    COUNT(id_transporte) AS cantidad_pedidos
+
+FROM shippers
+GROUP BY 1, 2, 3
+ORDER BY cantidad_pedidos DESC;
+
+
+[0m21:49:26.898337 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:49:27.175260 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:d8e4e37b-fc35-42be-a935-05a939c014a5&page=queryresults
+[0m21:49:27.690644 [debug] [Thread-2 (]: SQL status: OK in 0.514 seconds
+[0m21:49:27.692858 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201163B0350>]}
+[0m21:49:27.693473 [info ] [Thread-2 (]: 9 of 10 OK created sql view model exam2.recognized_employees ................... [[32mCREATE VIEW (0 processed)[0m in 1.77s]
+[0m21:49:27.694261 [debug] [Thread-2 (]: Finished running node model.my_new_project.recognized_employees
+[0m21:49:28.212568 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:623cdcf3-23d3-4be9-8b75-578c17a758a7&page=queryresults
+[0m21:49:28.637974 [debug] [Thread-1 (]: SQL status: OK in 0.423 seconds
+[0m21:49:28.646680 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2522d896-fc04-44e7-88e5-569368d79564', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020115FDA6F0>]}
+[0m21:49:28.648305 [info ] [Thread-1 (]: 10 of 10 OK created sql view model exam2.shipper_ranking ....................... [[32mCREATE VIEW (0 processed)[0m in 1.76s]
+[0m21:49:28.650073 [debug] [Thread-1 (]: Finished running node model.my_new_project.shipper_ranking
+[0m21:49:28.652957 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:49:28.691000 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:49:28.691345 [debug] [MainThread]: Connection 'list_data-transformation-486715' was properly closed.
+[0m21:49:28.691589 [debug] [MainThread]: Connection 'list_data-transformation-486715_exam2' was properly closed.
+[0m21:49:28.691825 [debug] [MainThread]: Connection 'model.my_new_project.shipper_ranking' was properly closed.
+[0m21:49:28.692061 [debug] [MainThread]: Connection 'model.my_new_project.recognized_employees' was properly closed.
+[0m21:49:28.692397 [info ] [MainThread]: 
+[0m21:49:28.692837 [info ] [MainThread]: Finished running 4 table models, 6 view models in 0 hours 0 minutes and 13.77 seconds (13.77s).
+[0m21:49:28.694939 [debug] [MainThread]: Command end result
+[0m21:49:28.718030 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:49:28.720659 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:49:28.727060 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\run_results.json
+[0m21:49:28.727408 [info ] [MainThread]: 
+[0m21:49:28.727852 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:49:28.728333 [info ] [MainThread]: 
+[0m21:49:28.728974 [error] [MainThread]: [31mFailure in model int_customers_in_eu (models\intermediate\int_customers_in_eu.sql)[0m
+[0m21:49:28.730194 [error] [MainThread]:   Database Error in model int_customers_in_eu (models\intermediate\int_customers_in_eu.sql)
+  Not found: Table data-transformation-486715:exam2.countriesEU was not found in location US
+  compiled code at target\run\my_new_project\models\intermediate\int_customers_in_eu.sql
+[0m21:49:28.730685 [info ] [MainThread]: 
+[0m21:49:28.731195 [info ] [MainThread]:   compiled code at target\compiled\my_new_project\models\intermediate\int_customers_in_eu.sql
+[0m21:49:28.731630 [info ] [MainThread]: 
+[0m21:49:28.732074 [info ] [MainThread]: Done. PASS=8 WARN=0 ERROR=1 SKIP=1 NO-OP=0 TOTAL=10
+[0m21:49:28.732932 [debug] [MainThread]: Command `dbt run` failed at 21:49:28.732823 after 17.27 seconds
+[0m21:49:28.733265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201167DEB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201007165D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201166331D0>]}
+[0m21:49:28.733591 [debug] [MainThread]: Flushing usage events
+[0m21:49:29.385531 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:53:51.129505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FA141DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FA27DFED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FA27DFB10>]}
+
+
+============================== 21:53:51.133965 | 21682849-a141-4519-8d81-31242a9c837b ==============================
+[0m21:53:51.133965 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:53:51.134569 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt seed', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:53:53.751198 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '21682849-a141-4519-8d81-31242a9c837b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FA1AEDE00>]}
+[0m21:53:53.812341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '21682849-a141-4519-8d81-31242a9c837b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FB4FA6BE0>]}
+[0m21:53:53.812950 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:53:54.186678 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m21:53:54.339151 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:53:54.339482 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:53:54.339719 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:53:54.391503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '21682849-a141-4519-8d81-31242a9c837b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FB4FD1650>]}
+[0m21:53:54.484805 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:53:54.487098 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:53:54.514892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '21682849-a141-4519-8d81-31242a9c837b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FB554FF20>]}
+[0m21:53:54.515364 [info ] [MainThread]: Found 1 seed, 10 models, 8 data tests, 4 sources, 541 macros
+[0m21:53:54.515858 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '21682849-a141-4519-8d81-31242a9c837b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FB5810C90>]}
+[0m21:53:54.518159 [info ] [MainThread]: 
+[0m21:53:54.518761 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m21:53:54.519486 [info ] [MainThread]: 
+[0m21:53:54.520194 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m21:53:54.521548 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715'
+[0m21:53:54.521894 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:53:55.966922 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715_exam2'
+[0m21:53:55.967916 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:53:57.232157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '21682849-a141-4519-8d81-31242a9c837b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FB575CEF0>]}
+[0m21:53:57.232584 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:53:57.266793 [debug] [Thread-1 (]: Began running node seed.my_new_project.countriesEU
+[0m21:53:57.267279 [info ] [Thread-1 (]: 1 of 1 START seed file exam2.countriesEU ....................................... [RUN]
+[0m21:53:57.268066 [debug] [Thread-1 (]: Acquiring new bigquery connection 'seed.my_new_project.countriesEU'
+[0m21:53:57.268521 [debug] [Thread-1 (]: Began compiling node seed.my_new_project.countriesEU
+[0m21:53:57.268963 [debug] [Thread-1 (]: Began executing node seed.my_new_project.countriesEU
+[0m21:53:57.350289 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:54:01.032261 [debug] [Thread-1 (]: On seed.my_new_project.countriesEU: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "seed.my_new_project.countriesEU"} */
+
+    alter table `data-transformation-486715`.`exam2`.`countriesEU` set OPTIONS()
+  
+[0m21:54:01.434996 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:dbe9215f-609e-485c-a9bf-ec735a789e23&page=queryresults
+[0m21:54:01.972991 [debug] [Thread-1 (]: SQL status: OK in 0.537 seconds
+[0m21:54:01.978923 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.my_new_project.countriesEU"
+[0m21:54:01.998475 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '21682849-a141-4519-8d81-31242a9c837b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FB5E81310>]}
+[0m21:54:01.999020 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file exam2.countriesEU ................................... [[32mINSERT 27[0m in 4.73s]
+[0m21:54:01.999754 [debug] [Thread-1 (]: Finished running node seed.my_new_project.countriesEU
+[0m21:54:02.001400 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:54:02.032117 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:54:02.032447 [debug] [MainThread]: Connection 'list_data-transformation-486715' was properly closed.
+[0m21:54:02.032688 [debug] [MainThread]: Connection 'list_data-transformation-486715_exam2' was properly closed.
+[0m21:54:02.032930 [debug] [MainThread]: Connection 'seed.my_new_project.countriesEU' was properly closed.
+[0m21:54:02.033200 [info ] [MainThread]: 
+[0m21:54:02.033672 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 7.51 seconds (7.51s).
+[0m21:54:02.034474 [debug] [MainThread]: Command end result
+[0m21:54:02.058989 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:54:02.061090 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:54:02.066552 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\run_results.json
+[0m21:54:02.066910 [info ] [MainThread]: 
+[0m21:54:02.067532 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:54:02.068309 [info ] [MainThread]: 
+[0m21:54:02.069937 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m21:54:02.072380 [debug] [MainThread]: Command `dbt seed` succeeded at 21:54:02.072044 after 11.09 seconds
+[0m21:54:02.073064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FB5756DB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FB57ED590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FB57ED4F0>]}
+[0m21:54:02.073583 [debug] [MainThread]: Flushing usage events
+[0m21:54:03.048720 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:54:07.195361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A53AEADE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A53C273ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A53C273B10>]}
+
+
+============================== 21:54:07.200151 | e422f486-a051-4966-b6c6-b3282b4edd0c ==============================
+[0m21:54:07.200151 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:54:07.200686 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:54:09.824681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A53B57DE00>]}
+[0m21:54:09.887163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54EA42BE0>]}
+[0m21:54:09.887911 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:54:10.298932 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m21:54:10.456182 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:54:10.456518 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:54:10.456760 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:54:10.512879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54EA75650>]}
+[0m21:54:10.631912 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:54:10.656144 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:54:10.697901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A53AF2AB70>]}
+[0m21:54:10.698373 [info ] [MainThread]: Found 1 seed, 10 models, 8 data tests, 4 sources, 541 macros
+[0m21:54:10.698782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F28C830>]}
+[0m21:54:10.700925 [info ] [MainThread]: 
+[0m21:54:10.701554 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m21:54:10.701946 [info ] [MainThread]: 
+[0m21:54:10.702629 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m21:54:10.707341 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715'
+[0m21:54:10.707801 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:54:11.948308 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715_exam2'
+[0m21:54:11.948830 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:54:12.966556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F14D570>]}
+[0m21:54:12.967470 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:54:13.021431 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_customers
+[0m21:54:13.021848 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_employees
+[0m21:54:13.022334 [info ] [Thread-1 (]: 1 of 10 START sql table model exam2.stg_customers .............................. [RUN]
+[0m21:54:13.023301 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.my_new_project.stg_customers'
+[0m21:54:13.023632 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_customers
+[0m21:54:13.022731 [info ] [Thread-2 (]: 2 of 10 START sql table model exam2.stg_employees .............................. [RUN]
+[0m21:54:13.032201 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_customers"
+[0m21:54:13.032766 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.my_new_project.stg_employees'
+[0m21:54:13.033257 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_employees
+[0m21:54:13.035636 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_employees"
+[0m21:54:13.036566 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_customers
+[0m21:54:13.050165 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:54:13.050814 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_employees
+[0m21:54:13.052811 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m21:54:13.860491 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_customers"
+[0m21:54:13.861594 [debug] [Thread-1 (]: On model.my_new_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_customers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_customers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_cliente,
+    "name" as nombre,
+    contact as contacto,
+    "address" as direccion,
+    city as ciudad,
+    postal_code as codigo_postal,
+    country as pais
+
+FROM  `data-transformation-486715`.`exam2`.`customers`
+    );
+  
+[0m21:54:14.108762 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_employees"
+[0m21:54:14.110465 [debug] [Thread-2 (]: On model.my_new_project.stg_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_employees"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_employees`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    employee_id as id_empleado,
+    last_name as apellido,
+    first_name as nombre,
+    birthdate as fecha_nacimiento,
+    photo as foto,
+    notes as notas
+FROM  `data-transformation-486715`.`exam2`.`employees`
+    );
+  
+[0m21:54:14.490351 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:9ca6b0ba-bc11-4a2d-b584-ec3285afa94d&page=queryresults
+[0m21:54:14.703530 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:f5eceb49-db60-42b5-8697-fba13dbab148&page=queryresults
+[0m21:54:16.175629 [debug] [Thread-1 (]: SQL status: OK in 1.684 seconds
+[0m21:54:16.532772 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F1CFD10>]}
+[0m21:54:16.533568 [info ] [Thread-1 (]: 1 of 10 OK created sql table model exam2.stg_customers ......................... [[32mCREATE TABLE (91.0 rows, 4.4 KiB processed)[0m in 3.51s]
+[0m21:54:16.534649 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_customers
+[0m21:54:16.535249 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_orders
+[0m21:54:16.535782 [info ] [Thread-1 (]: 3 of 10 START sql table model exam2.stg_orders ................................. [RUN]
+[0m21:54:16.536506 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_customers, now model.my_new_project.stg_orders)
+[0m21:54:16.536877 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_orders
+[0m21:54:16.539501 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_orders"
+[0m21:54:16.540467 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_orders
+[0m21:54:16.543120 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:54:16.721107 [debug] [Thread-2 (]: SQL status: OK in 2.016 seconds
+[0m21:54:17.043855 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F830E10>]}
+[0m21:54:17.044532 [info ] [Thread-2 (]: 2 of 10 OK created sql table model exam2.stg_employees ......................... [[32mCREATE TABLE (10.0 rows, 2.7 KiB processed)[0m in 4.01s]
+[0m21:54:17.045673 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_employees
+[0m21:54:17.046694 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_shippers
+[0m21:54:17.047469 [info ] [Thread-2 (]: 4 of 10 START sql table model exam2.stg_shippers ............................... [RUN]
+[0m21:54:17.048072 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_employees, now model.my_new_project.stg_shippers)
+[0m21:54:17.048458 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_shippers
+[0m21:54:17.051954 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_shippers"
+[0m21:54:17.052877 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_shippers
+[0m21:54:17.054900 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:54:17.856141 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_orders"
+[0m21:54:17.861092 [debug] [Thread-1 (]: On model.my_new_project.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_orders"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_orders`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_pedido,
+    customer_id as fk_cliente,
+    employee_id as fk_empleado,
+    date as fecha_pedido,
+    shipper_id as fk_transporte
+FROM  `data-transformation-486715`.`exam2`.`orders`
+    );
+  
+[0m21:54:18.360301 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:e808ec46-6cf0-4ff5-88aa-124c201d309c&page=queryresults
+[0m21:54:18.416004 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_shippers"
+[0m21:54:18.418009 [debug] [Thread-2 (]: On model.my_new_project.stg_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_shippers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2`.`stg_shippers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_transporte,
+    "name" as nombre_transporte,
+    phone as telefono_transporte
+FROM  `data-transformation-486715`.`exam2`.`shippers`
+    );
+  
+[0m21:54:18.933431 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:09e99570-0c66-4c9a-84ff-5117af69ae92&page=queryresults
+[0m21:54:20.945646 [debug] [Thread-2 (]: SQL status: OK in 2.011 seconds
+[0m21:54:21.270725 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F635A90>]}
+[0m21:54:21.271424 [info ] [Thread-2 (]: 4 of 10 OK created sql table model exam2.stg_shippers .......................... [[32mCREATE TABLE (3.0 rows, 72.0 Bytes processed)[0m in 4.22s]
+[0m21:54:21.272293 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_shippers
+[0m21:54:21.272750 [debug] [Thread-2 (]: Began running node model.my_new_project.int_customers_in_eu
+[0m21:54:21.273264 [info ] [Thread-2 (]: 5 of 10 START sql view model exam2.int_customers_in_eu ......................... [RUN]
+[0m21:54:21.274097 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_shippers, now model.my_new_project.int_customers_in_eu)
+[0m21:54:21.274507 [debug] [Thread-2 (]: Began compiling node model.my_new_project.int_customers_in_eu
+[0m21:54:21.277842 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.int_customers_in_eu"
+[0m21:54:21.278947 [debug] [Thread-2 (]: Began executing node model.my_new_project.int_customers_in_eu
+[0m21:54:21.298509 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.int_customers_in_eu"
+[0m21:54:21.300268 [debug] [Thread-2 (]: On model.my_new_project.int_customers_in_eu: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_customers_in_eu"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_customers_in_eu`
+  OPTIONS()
+  as WITH customers AS (
+    SELECT
+        id_cliente,
+        nombre,
+        contacto,
+        direccion,
+        ciudad,
+        codigo_postal,
+        pais
+
+    FROM `data-transformation-486715`.`exam2`.`stg_customers`
+),
+
+eu_list AS (
+    SELECT
+        Country_name AS nombre
+    FROM `data-transformation-486715`.`exam2`.`countriesEU`
+)
+
+SELECT
+    c.id_cliente,
+    c.nombre,
+    c.contacto,
+    c.direccion,
+    c.ciudad,
+    c.codigo_postal,
+    c.pais,
+    CASE WHEN e.nombre IS NOT NULL THEN 'EU' ELSE 'otro' END AS estado
+
+FROM customers c
+LEFT JOIN eu_list e
+    ON c.pais = e.nombre;
+
+
+[0m21:54:21.300945 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:54:22.630244 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:eb516d8a-2c4b-423c-9e03-47747aa58cee&page=queryresults
+[0m21:54:23.219132 [debug] [Thread-2 (]: SQL status: OK in 0.587 seconds
+[0m21:54:23.226274 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F901150>]}
+[0m21:54:23.228456 [info ] [Thread-2 (]: 5 of 10 OK created sql view model exam2.int_customers_in_eu .................... [[32mCREATE VIEW (0 processed)[0m in 1.95s]
+[0m21:54:23.231708 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_customers_in_eu
+[0m21:54:23.233553 [debug] [Thread-2 (]: Began running node model.my_new_project.eu_discount
+[0m21:54:23.234844 [info ] [Thread-2 (]: 6 of 10 START sql view model exam2.eu_discount ................................. [RUN]
+[0m21:54:23.236220 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_customers_in_eu, now model.my_new_project.eu_discount)
+[0m21:54:23.236981 [debug] [Thread-2 (]: Began compiling node model.my_new_project.eu_discount
+[0m21:54:23.244071 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.eu_discount"
+[0m21:54:23.246192 [debug] [Thread-2 (]: Began executing node model.my_new_project.eu_discount
+[0m21:54:23.251365 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.eu_discount"
+[0m21:54:23.253349 [debug] [Thread-2 (]: On model.my_new_project.eu_discount: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.eu_discount"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`eu_discount`
+  OPTIONS()
+  as WITH customers AS (
+    SELECT
+        id_cliente,
+        nombre,
+        contacto,
+        direccion,
+        ciudad,
+        codigo_postal,
+        pais,
+        estado
+        
+    FROM `data-transformation-486715`.`exam2`.`int_customers_in_eu`
+)
+
+SELECT
+    c.id_cliente,
+    c.nombre,
+    c.contacto,
+    c.direccion,
+    c.ciudad,
+    c.codigo_postal,
+    c.pais,
+    
+    CASE WHEN estado = 'EU' THEN 0.95 ELSE 1 END
+ AS descuento
+    
+
+FROM customers c;
+
+
+[0m21:54:23.254333 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:54:23.292136 [debug] [Thread-1 (]: SQL status: OK in 4.931 seconds
+[0m21:54:23.681586 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54ED99780>]}
+[0m21:54:23.682189 [info ] [Thread-1 (]: 3 of 10 OK created sql table model exam2.stg_orders ............................ [[32mCREATE TABLE (196.0 rows, 7.7 KiB processed)[0m in 7.15s]
+[0m21:54:23.682967 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_orders
+[0m21:54:23.683634 [debug] [Thread-1 (]: Began running node model.my_new_project.int_orders_employees
+[0m21:54:23.684055 [info ] [Thread-1 (]: 7 of 10 START sql view model exam2.int_orders_employees ........................ [RUN]
+[0m21:54:23.684785 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_orders, now model.my_new_project.int_orders_employees)
+[0m21:54:23.685130 [debug] [Thread-1 (]: Began compiling node model.my_new_project.int_orders_employees
+[0m21:54:23.688815 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.int_orders_employees"
+[0m21:54:23.689891 [debug] [Thread-1 (]: Began executing node model.my_new_project.int_orders_employees
+[0m21:54:23.695014 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.int_orders_employees"
+[0m21:54:23.696127 [debug] [Thread-1 (]: On model.my_new_project.int_orders_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_orders_employees"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_orders_employees`
+  OPTIONS()
+  as WITH orders AS (
+    SELECT
+        id_pedido,
+        fk_cliente,
+        fk_empleado,
+        fecha_pedido,
+        fk_transporte
+    FROM `data-transformation-486715`.`exam2`.`stg_orders`
+),
+employees AS (
+    SELECT
+        id_empleado,
+        
+    CONCAT(apellido, ' ', nombre)
+ AS nombre_completo,
+        fecha_nacimiento,
+        foto,
+        notas
+
+    FROM `data-transformation-486715`.`exam2`.`stg_employees`
+)
+
+SELECT
+    e.id_empleado,
+    o.id_pedido,
+    o.fk_cliente,
+    o.fecha_pedido,
+    e.nombre_completo,
+    e.fecha_nacimiento,
+    e.foto,
+    e.notas
+
+FROM orders o
+    JOIN employees e
+    ON o.fk_empleado = e.id_empleado;
+
+
+[0m21:54:23.696563 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:54:24.549759 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:ea6a0534-e898-4e5f-a012-f07a7a55d28a&page=queryresults
+[0m21:54:25.006287 [debug] [Thread-2 (]: SQL status: OK in 0.456 seconds
+[0m21:54:25.011241 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F8C6390>]}
+[0m21:54:25.012639 [info ] [Thread-2 (]: 6 of 10 OK created sql view model exam2.eu_discount ............................ [[32mCREATE VIEW (0 processed)[0m in 1.78s]
+[0m21:54:25.014401 [debug] [Thread-2 (]: Finished running node model.my_new_project.eu_discount
+[0m21:54:25.015388 [debug] [Thread-2 (]: Began running node model.my_new_project.int_orders_shippers
+[0m21:54:25.016712 [info ] [Thread-2 (]: 8 of 10 START sql view model exam2.int_orders_shippers ......................... [RUN]
+[0m21:54:25.018161 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.eu_discount, now model.my_new_project.int_orders_shippers)
+[0m21:54:25.019117 [debug] [Thread-2 (]: Began compiling node model.my_new_project.int_orders_shippers
+[0m21:54:25.025019 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.int_orders_shippers"
+[0m21:54:25.027423 [debug] [Thread-2 (]: Began executing node model.my_new_project.int_orders_shippers
+[0m21:54:25.033296 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.int_orders_shippers"
+[0m21:54:25.035173 [debug] [Thread-2 (]: On model.my_new_project.int_orders_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_orders_shippers"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`int_orders_shippers`
+  OPTIONS()
+  as WITH orders AS (
+    SELECT
+        id_pedido,
+        fk_cliente,
+        fecha_pedido,
+        fk_transporte,
+    FROM `data-transformation-486715`.`exam2`.`stg_orders`
+),
+shippers AS (
+    SELECT
+        id_transporte,
+        nombre_transporte,
+        telefono_transporte
+    FROM `data-transformation-486715`.`exam2`.`stg_shippers`
+)
+
+SELECT
+    s.id_transporte,
+    o.id_pedido,
+    o.fk_cliente,
+    o.fecha_pedido,
+    s.nombre_transporte,
+    s.telefono_transporte
+
+FROM orders o
+    JOIN shippers s
+    ON o.fk_transporte = s.id_transporte;
+
+
+[0m21:54:25.036056 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:54:25.321693 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:8388fa6a-4ea1-46ba-a208-368f48a0bed1&page=queryresults
+[0m21:54:25.829048 [debug] [Thread-1 (]: SQL status: OK in 0.506 seconds
+[0m21:54:25.838118 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F8C7F50>]}
+[0m21:54:25.840889 [info ] [Thread-1 (]: 7 of 10 OK created sql view model exam2.int_orders_employees ................... [[32mCREATE VIEW (0 processed)[0m in 2.15s]
+[0m21:54:25.844170 [debug] [Thread-1 (]: Finished running node model.my_new_project.int_orders_employees
+[0m21:54:25.846601 [debug] [Thread-1 (]: Began running node model.my_new_project.recognized_employees
+[0m21:54:25.848131 [info ] [Thread-1 (]: 9 of 10 START sql view model exam2.recognized_employees ........................ [RUN]
+[0m21:54:25.849929 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_orders_employees, now model.my_new_project.recognized_employees)
+[0m21:54:25.851185 [debug] [Thread-1 (]: Began compiling node model.my_new_project.recognized_employees
+[0m21:54:25.858576 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.recognized_employees"
+[0m21:54:25.860856 [debug] [Thread-1 (]: Began executing node model.my_new_project.recognized_employees
+[0m21:54:25.864988 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.recognized_employees"
+[0m21:54:25.866557 [debug] [Thread-1 (]: On model.my_new_project.recognized_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.recognized_employees"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`recognized_employees`
+  OPTIONS()
+  as WITH employees AS (
+    SELECT
+        id_empleado,
+        nombre_completo,
+        fecha_nacimiento,
+        foto,
+        notas
+    FROM `data-transformation-486715`.`exam2`.`int_orders_employees`
+)
+
+SELECT
+    id_empleado,
+    nombre_completo,
+    foto,
+    COUNT(id_empleado) AS cantidad_ventas,
+    
+    CASE WHEN CAST(COUNT(id_empleado) AS NUMERIC) > 25 THEN 'recognized' ELSE 'normal' END
+ AS estado
+    
+
+
+FROM employees
+GROUP BY 1, 2, 3
+ORDER BY cantidad_ventas DESC;
+
+
+[0m21:54:25.867204 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:54:26.297378 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:85b34e03-be9d-41d3-aaac-98c5ca70638a&page=queryresults
+[0m21:54:26.822318 [debug] [Thread-2 (]: SQL status: OK in 0.524 seconds
+[0m21:54:26.824838 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F27DEB0>]}
+[0m21:54:26.825541 [info ] [Thread-2 (]: 8 of 10 OK created sql view model exam2.int_orders_shippers .................... [[32mCREATE VIEW (0 processed)[0m in 1.81s]
+[0m21:54:26.826450 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_orders_shippers
+[0m21:54:26.827257 [debug] [Thread-2 (]: Began running node model.my_new_project.shipper_ranking
+[0m21:54:26.828105 [info ] [Thread-2 (]: 10 of 10 START sql view model exam2.shipper_ranking ............................ [RUN]
+[0m21:54:26.829107 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_orders_shippers, now model.my_new_project.shipper_ranking)
+[0m21:54:26.829889 [debug] [Thread-2 (]: Began compiling node model.my_new_project.shipper_ranking
+[0m21:54:26.833011 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.shipper_ranking"
+[0m21:54:26.834136 [debug] [Thread-2 (]: Began executing node model.my_new_project.shipper_ranking
+[0m21:54:26.837493 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.shipper_ranking"
+[0m21:54:26.839326 [debug] [Thread-2 (]: On model.my_new_project.shipper_ranking: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.shipper_ranking"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2`.`shipper_ranking`
+  OPTIONS()
+  as WITH shippers AS (
+    SELECT
+        id_transporte,
+        nombre_transporte,
+        telefono_transporte
+    
+    FROM `data-transformation-486715`.`exam2`.`int_orders_shippers`
+)
+
+SELECT 
+    id_transporte,
+    nombre_transporte,
+    telefono_transporte,
+    COUNT(id_transporte) AS cantidad_pedidos
+
+FROM shippers
+GROUP BY 1, 2, 3
+ORDER BY cantidad_pedidos DESC;
+
+
+[0m21:54:26.839881 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:54:27.379726 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:3472eafe-418b-402f-8807-c44b72adf54f&page=queryresults
+[0m21:54:27.932220 [debug] [Thread-1 (]: SQL status: OK in 0.552 seconds
+[0m21:54:27.936523 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F8C6CF0>]}
+[0m21:54:27.937766 [info ] [Thread-1 (]: 9 of 10 OK created sql view model exam2.recognized_employees ................... [[32mCREATE VIEW (0 processed)[0m in 2.09s]
+[0m21:54:27.939786 [debug] [Thread-1 (]: Finished running node model.my_new_project.recognized_employees
+[0m21:54:28.293892 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:63f36e53-fc65-4b4a-aee5-bd7437373930&page=queryresults
+[0m21:54:28.894741 [debug] [Thread-2 (]: SQL status: OK in 0.600 seconds
+[0m21:54:28.897666 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e422f486-a051-4966-b6c6-b3282b4edd0c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F8C6210>]}
+[0m21:54:28.898544 [info ] [Thread-2 (]: 10 of 10 OK created sql view model exam2.shipper_ranking ....................... [[32mCREATE VIEW (0 processed)[0m in 2.07s]
+[0m21:54:28.899367 [debug] [Thread-2 (]: Finished running node model.my_new_project.shipper_ranking
+[0m21:54:28.900892 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:54:28.934369 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:54:28.934706 [debug] [MainThread]: Connection 'list_data-transformation-486715' was properly closed.
+[0m21:54:28.934953 [debug] [MainThread]: Connection 'list_data-transformation-486715_exam2' was properly closed.
+[0m21:54:28.935193 [debug] [MainThread]: Connection 'model.my_new_project.recognized_employees' was properly closed.
+[0m21:54:28.935432 [debug] [MainThread]: Connection 'model.my_new_project.shipper_ranking' was properly closed.
+[0m21:54:28.935772 [info ] [MainThread]: 
+[0m21:54:28.936227 [info ] [MainThread]: Finished running 4 table models, 6 view models in 0 hours 0 minutes and 18.23 seconds (18.23s).
+[0m21:54:28.938565 [debug] [MainThread]: Command end result
+[0m21:54:28.962469 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\manifest.json
+[0m21:54:28.964648 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\semantic_manifest.json
+[0m21:54:28.971558 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\CARLOS ESTEBAN\Downloads\Universidad\transformacion_datos\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\target\run_results.json
+[0m21:54:28.971997 [info ] [MainThread]: 
+[0m21:54:28.972646 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:54:28.973742 [info ] [MainThread]: 
+[0m21:54:28.975122 [info ] [MainThread]: Done. PASS=10 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=10
+[0m21:54:28.976665 [debug] [MainThread]: Command `dbt run` succeeded at 21:54:28.976398 after 21.89 seconds
+[0m21:54:28.977201 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F8C72F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A53AE12390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A54F2DF5F0>]}
+[0m21:54:28.977860 [debug] [MainThread]: Flushing usage events
+[0m21:54:29.440974 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:59:28.390991 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF6F84DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF70BEFED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF70BEFB10>]}
+
+
+============================== 21:59:28.395026 | 10cceb0c-ff15-4f5c-b96e-c2765ccf068c ==============================
+[0m21:59:28.395026 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:59:28.395608 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\CARLOS ESTEBAN\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt clean', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\CARLOS ESTEBAN\\Downloads\\Universidad\\transformacion_datos\\dbt-cloud-managed-repositories-dbt-cloud-70471823552516-dbtest-users-7bb6314247114d47a8009966cd1b11384eaa3998\\logs'}
+[0m21:59:28.529458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '10cceb0c-ff15-4f5c-b96e-c2765ccf068c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF6FF0DE00>]}
+[0m21:59:28.558723 [debug] [MainThread]: Command `dbt clean` succeeded at 21:59:28.558582 after 0.32 seconds
+[0m21:59:28.559096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF70A57DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF70A57680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF71C26B50>]}
+[0m21:59:28.559466 [debug] [MainThread]: Flushing usage events
+[0m21:59:29.307781 [debug] [MainThread]: An error was encountered while trying to flush usage events
